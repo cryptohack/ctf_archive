@@ -26,7 +26,7 @@ your_challenge
  - `release_files/YOUR_CHALLENGE_FILES`
    - The files within `release_files` will be made available to the players of your challenge
 
-For an example of a static challenge to copy, see: [ICC: Unbalanced](https://github.com/cryptohack/ctf-archive/tree/main/icc2022_unbalanced). 
+For an example of a static challenge to copy, see: [ICC Athens: Unbalanced](https://github.com/cryptohack/ctf-archive/tree/main/icc2022_unbalanced). 
 
 
 ### Dynamic Challenge
@@ -59,4 +59,4 @@ your_challenge
    - The files within `release_files` will be those which you want shared with the players
    - Files in this directory which are also on the server must be symlinked.
 
-For an example of a dynamic challenge to copy, see: [ICC CTF: ed25519](https://github.com/cryptohack/ctf-archive/tree/main/icc2022_ed25519-magic).
+For an example of a dynamic challenge to copy, see: [ICC Athens: ed25519](https://github.com/cryptohack/ctf-archive/tree/main/icc2022_ed25519-magic).
