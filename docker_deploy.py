@@ -9,8 +9,7 @@ def challenge_name_to_alias(chalname):
     return re.sub('[^\w-]+', '', slug)
 
 
-subfolders = [f.path for f in os.scandir(
-    ".") if f.is_dir() and not f.path.startswith("./.")]
+subfolders = [f.path for f in os.scandir(".") if f.is_dir() and not f.path.startswith("./.")]
 
 compose_file = ["version: '3'", "services:"]
 
