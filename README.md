@@ -26,7 +26,7 @@ your_challenge
  - `release_files/YOUR_CHALLENGE_FILES`
    - The files within `release_files` will be made available to the players of your challenge
 
-For an example of a static challenge to copy, see: [https://github.com/cryptohack/ctf-archive/tree/main/icc2022_unbalanced](ICC: Unbalanced). 
+For an example of a static challenge to copy, see: [ICC: Unbalanced](https://github.com/cryptohack/ctf-archive/tree/main/icc2022_unbalanced). 
 
 
 ### Dynamic Challenge
