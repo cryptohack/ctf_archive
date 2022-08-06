@@ -10,7 +10,7 @@ We want to see great cryptography challenges submitted to this repository. To su
 
 ### Static Challenge
 
-To submit a static challenge to the archive, you must include the following files:
+To submit a static challenge to the archive, you must use the following directory structure:
 
 ```
 your_challenge
@@ -22,16 +22,16 @@ your_challenge
 
  - `description.yml`
    - Data in `description.yml` is used to set metadata for the challenge
-   - Please ensure to **base 64 encode** your flag
+   - Please ensure to **base64 encode** your flag
  - `release_files/YOUR_CHALLENGE_FILES`
-   - The files within `release_files` will be made available to the players of your challenge
+   - All files within `release_files` will be made available to the players of your challenge
 
 For an example of a static challenge to copy, see: [ICC Athens: Unbalanced](https://github.com/cryptohack/ctf-archive/tree/main/icc2022_unbalanced). 
 
 
 ### Dynamic Challenge
 
-To submit a dynamic challenge to the archive, you must include the following files:
+To submit a dynamic challenge to the archive, you must use the following directory structure:
 
 ```
 your_challenge
@@ -48,15 +48,15 @@ your_challenge
 
  - `description.yml`
    - Data in this file is used to set the metadata for the challenge
-   - Please ensure to **base 64 encode** your flag
+   - Please ensure to **base64 encode** your flag
  - `Dockerfile`
    - All dynamic challenges must be built from a Dockerfile
    - Please pick a **random port** between 1024-65535
-   - The flag within `description.yml` is decoded and set as an environment variable automatically
+   - The flag within `description.yml` is decoded and set as the environment variable FLAG within the container automatically
  - `server_files/YOUR_CHALLENGE_FILES`
-   - The files in `server_files` will be hosted within a docker container. 
+   - The files in `server_files` will be hosted within a docker container
  - `release_files/YOUR_CHALLENGE_FILES`
-   - The files within `release_files` will be those which you want shared with the players
-   - Files in this directory which are also on the server must be symlinked.
+   - All files within `release_files` will be those which you want shared with the players
+   - Files in this directory which are also on the server-side should be symlinked
 
 For an example of a dynamic challenge to copy, see: [ICC Athens: ed25519](https://github.com/cryptohack/ctf-archive/tree/main/icc2022_ed25519-magic).

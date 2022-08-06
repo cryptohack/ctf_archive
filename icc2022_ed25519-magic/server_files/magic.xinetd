@@ -18,5 +18,5 @@ service magic
         type                    = UNLISTED
 
         per_source              = 2
-        rlimit_cpu              = 900
+        rlimit_cpu              = 30
 }
