@@ -3,7 +3,7 @@ import ed25519
 import os
 import sys
 
-FLAG = open("flag.txt", "r").read()
+FLAG = os.environ.get("FLAG")
 
 
 def die(*args):

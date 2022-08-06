@@ -22,7 +22,7 @@ def signature_add_l(signature):
 level = "info"
 level = "debug"
 # p = process(['python3', 'chal.py'], level = level)
-p = remote("localhost", 13371, level = level)
+p = remote("localhost", 21012, level = level)
 
 # level1
 new_level()

@@ -10,7 +10,7 @@ service magic
         user                    = root
 
         bind                    = 0.0.0.0
-        port                    = 13371
+        port                    = 21012
 
         server                  = /usr/bin/python3
         server_args             = -u /chal.py
