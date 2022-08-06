@@ -36,11 +36,10 @@ To submit a dynamic challenge to the archive, you must use the following directo
 ```
 your_challenge
 ├── description.yml
-├── Dockerfile
 ├── server_files
 │   ├── secret_server_file.py
 |   ├── public_file.py
-│   └── maybe_another_one.py
+│   └── Dockerfile
 ├── release_files
 │   ├── public_file.py@ -> server_files/public_file.py
 │   └── maybe_another_one.py@ -> server_files/maybe_another_one.py
