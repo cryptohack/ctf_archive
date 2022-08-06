@@ -1,0 +1,6 @@
+cargo:rustc-cfg=gmp_limb_bits_64
+$ mkdir -p "/Users/Jack/Documents/GitHub/CSAW-2021/hardcore_rs/target/release/build/rug-a10f375a72ad002a/out/try_unsafe_in_unsafe"
+$ cd "/Users/Jack/Documents/GitHub/CSAW-2021/hardcore_rs/target/release/build/rug-a10f375a72ad002a/out/try_unsafe_in_unsafe"
+$ printf '%s' "// try_uns"... > "/Users/Jack/Documents/GitHub/CSAW-2021/hardcore_rs/target/release/build/rug-a10f375a72ad002a/out/try_unsafe_in_unsafe/try_unsafe_in_unsafe.rs"
+$ "rustc" "try_unsafe_in_unsafe.rs" "--emit=dep-info,metadata" >& /dev/null
+$ rm -r "/Users/Jack/Documents/GitHub/CSAW-2021/hardcore_rs/target/release/build/rug-a10f375a72ad002a/out/try_unsafe_in_unsafe"

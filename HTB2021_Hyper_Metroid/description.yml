@@ -1,0 +1,8 @@
+name: Hyper Metroid
+author: CryptoHack
+original_ctf: HTB Cyber Apocalypse 2021
+year: 2021
+description: >-
+  Dropping a morph ball bomb, Samus cracked open the floor and dropped down into the guts of Phaaze. At the end of the tunnel is a locked chest containing the hyper beam upgrade. Samus found the encrypted key preserved in a ball of glowing biomass, but can't decode it. Help Samus capture the flag so she can eradicate the alien invasion once and for all. 
+base64_flag: Q0hUQntoeXAzcl9zcDMzZF9jMHVudGluZ2NkIH59
+flag_format: 'CHTB{FLAG}'

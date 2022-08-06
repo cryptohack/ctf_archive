@@ -1,0 +1,10 @@
+name: Interoperable
+author: CryptoHack
+original_ctf: CSAW Finals 2021
+year: 2021
+description: >-
+  Let's use standard curves to ensure interoperability.
+  
+base64_flag: ZmxhZ3tjdXJ2M19zaDFmdDFuZ190MF9zbTAwdGhfMHJkZXIhfQ==
+flag_format: 'flag{FLAG}'
+port: 25012

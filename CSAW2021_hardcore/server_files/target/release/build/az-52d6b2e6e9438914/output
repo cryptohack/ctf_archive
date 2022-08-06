@@ -1,0 +1,6 @@
+$ mkdir -p "/Users/Jack/Documents/GitHub/CSAW-2021/hardcore_rs/target/release/build/az-52d6b2e6e9438914/out/try_track_caller"
+$ cd "/Users/Jack/Documents/GitHub/CSAW-2021/hardcore_rs/target/release/build/az-52d6b2e6e9438914/out/try_track_caller"
+$ printf '%s' "// try_tra"... > "/Users/Jack/Documents/GitHub/CSAW-2021/hardcore_rs/target/release/build/az-52d6b2e6e9438914/out/try_track_caller/try_track_caller.rs"
+$ "rustc" "try_track_caller.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=track_caller
+$ rm -r "/Users/Jack/Documents/GitHub/CSAW-2021/hardcore_rs/target/release/build/az-52d6b2e6e9438914/out/try_track_caller"

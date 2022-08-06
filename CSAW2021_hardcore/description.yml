@@ -1,0 +1,10 @@
+name: Hardcore
+author: CryptoHack
+original_ctf: CSAW Quals 2021
+year: 2021
+description: >-
+  I wrote this oracle in rust so that it can't sue companies over java stuff.
+  
+base64_flag: ZmxhZ3todHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXVoVENlWmFzQ21jfQ==
+flag_format: 'flag{FLAG}'
+port: 33281
