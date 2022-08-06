@@ -1,1 +1,1 @@
-./server_files/chal.sage
+../server_files/chal.sage
