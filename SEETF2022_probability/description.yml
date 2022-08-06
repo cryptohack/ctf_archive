@@ -1,0 +1,9 @@
+name: Probability
+author: Neobeo
+original_ctf: SEETF
+year: 2022
+description: >-
+  I've been learning about probability distributions, but it's all very confusing so I'm just going to assume that my variant of blackjack gives an advantage to the house. I'll even bet a flag on it.
+base64_flag: 'U0VFezEzMzdfY2FyZF9jb3VudGluZ18yNGNhMzM1ZWQxY2FiYmNmfQ=='
+flag_format: 'SEE{FLAG}'
+port: 24336
