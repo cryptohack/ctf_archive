@@ -22,14 +22,12 @@ def challenge_name_to_alias(ctf, year, name):
 
 # Generate deterministic "random" port for challenge
 def get_free_port(chal_alias):
-    port = None
-    while not port:
-        hashed = hashlib.sha256(chal_alias.encode()).digest()
-        port = int.from_bytes(hashed, 'big') % 256**2
-        while port in used_ports or port < 1024:
-            port += 1
-            if port >= 256**2:
-                port = 1024
+    hashed = hashlib.sha256(chal_alias.encode()).digest()
+    port = int.from_bytes(hashed, 'big') % 256**2
+    while port in used_ports or port < 1024:
+        port += 1
+        if port >= 256**2:
+            port = 1024
     port_mappings[chal_alias] = port
     used_ports.append(port)
     return port
