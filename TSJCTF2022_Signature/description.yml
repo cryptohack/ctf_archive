@@ -1,0 +1,8 @@
+name: Signature
+author: maple3142
+original_ctf: TSJ CTF
+year: 2022
+description: >-
+  Another boring crypto challenge about signatures.
+base64_flag: VFNKe3dob19uZWVkc19nYXVzc2lhbl9lbGltaW5hdGlvbl93aGVuX3lvdV9oYXZlX0xMTD9faHR0cHM6Ly9naXRodWIuY29tL2pvbmFzbmljay9lY2RzYVByZWRpY3RhYmxlTm9uY2V9Cg==
+flag_format: 'TSJ{...}'
