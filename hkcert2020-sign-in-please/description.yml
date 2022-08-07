@@ -1,0 +1,10 @@
+name: Calm Down
+author: Mystiz
+original_ctf: 'HKCERT CTF'
+year: 2020
+description: >-
+  I have implemented a secure authentication system. You can't eavesdrop the passwords, can you?
+base64_flag: 'aGtjZXJ0MjB7ZDBfeTB1X2ZlZWxfczNjdXIzX3doM25fczE5bmluOV9pbj99'
+flag_format: 'hkcert20{\w+}'
+port: 19610
+
