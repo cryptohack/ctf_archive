@@ -6,5 +6,3 @@ description: >-
   Ed25519 is all the rage these days - it's fast, has small keys and signatures, and is designed to be robust against side-channel attacks. But the scheme has some magic as originally conceived.
 base64_flag: 'SUNDe1JGQzgwMzJfZGlzcGVsX3RoM19tNGdpY30='
 flag_format: 'ICC{FLAG}'
-port: 21012
-
