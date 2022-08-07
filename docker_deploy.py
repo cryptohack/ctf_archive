@@ -66,6 +66,11 @@ for chal in get_subfolders(cwd):
             compose_file.append(f'    restart: always')
             compose_file.append(f'    environment:')
             compose_file.append(f'      - "FLAG={base64.b64decode(data["base64_flag"]).decode()}"')
+            compose_file.append(f'    deploy:')
+            compose_file.append(f'      resources:')
+            compose_file.append(f'        limits:')
+            compose_file.append(f'          cpus: "0.3"')
+            compose_file.append(f'          memory: 50M')
 
 
 if __name__ == "__main__":
