@@ -1,4 +1,4 @@
-service spongebob
+service magic
 {
         disable                 = no
         socket_type             = stream
@@ -13,10 +13,10 @@ service spongebob
         port                    = 1337
 
         server                  = /usr/bin/python3
-        server_args             = -u /app/spongebob.py
+        server_args             = -u /ctf/key_recovery.py
 
         type                    = UNLISTED
 
-        per_source              = 10
-        rlimit_cpu              = 60
+        per_source              = 2
+        rlimit_cpu              = 30
 }

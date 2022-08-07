@@ -12,7 +12,7 @@ Please be aware that all challenges submitted to this repository are released un
 
 We want to see great cryptography challenges submitted to this repository. To submit a challenge, all you need to do is open a pull request that adds a directory to this repo that respects the following formats:
 
-### Static Challenge
+### Static Challenges
 
 To submit a static challenge to the archive, you must use the following directory structure:
 
@@ -24,16 +24,16 @@ your_challenge
 │   └── go_in_here.sage
 ```
 
+For an example of a static challenge to copy, see: [ICC Athens: Unbalanced](https://github.com/cryptohack/ctf-archive/tree/main/icc2022_unbalanced). 
+
  - `description.yml`
    - Data in `description.yml` is used to set metadata for the challenge
    - Please ensure to **base64 encode** your flag
  - `release_files/YOUR_CHALLENGE_FILES`
    - All files within `release_files` will be made available to the players of your challenge
 
-For an example of a static challenge to copy, see: [ICC Athens: Unbalanced](https://github.com/cryptohack/ctf-archive/tree/main/icc2022_unbalanced). 
 
-
-### Dynamic Challenge
+### Dynamic Challenges
 
 To submit a dynamic challenge to the archive, you must use the following directory structure:
 
@@ -49,14 +49,15 @@ your_challenge
 │   └── maybe_another_one.py@ -> server_files/maybe_another_one.py
 ```
 
+For an example of a dynamic challenge to copy, see: [ICC Athens: ed25519](https://github.com/cryptohack/ctf-archive/tree/main/icc2022_ed25519-magic).
+
  - `description.yml`
    - Data in this file is used to set the metadata for the challenge
    - Please ensure to **base64 encode** your flag
-   - Please pick a **random port** between 1024-65535 - to generate a random port, you can run the file `random_port.py`.
  - `Dockerfile`
    - All dynamic challenges must be built from a Dockerfile. `socat` or `xinetd` can be used to bind a challenge file to a port.
    - For the Dockerfile base image, please use a specific version not latest, e.g. use `ubuntu:22.04` not `ubuntu:latest` - this ensures the challenge will still work in the future.
-   - Ensure the port the challenge is run on matches the port specified in the `description.yml`.
+   - Listen on *port 1337* in your container that hosts the challenge. A random port will automatically be mapped from the host to port 1337 in your container.
    - The flag within `description.yml` is decoded and set as the environment variable `FLAG` within the container automatically. So you can load the flag using `flag = os.environ["FLAG"]` instead of importing a file.
  - `server_files/YOUR_CHALLENGE_FILES`
    - The files in `server_files` will be hosted within a Docker container
@@ -64,4 +65,7 @@ your_challenge
    - All files within `release_files` will be those which you want shared with the players
    - Files in this directory which are also on the server-side should be symlinked
 
-For an example of a dynamic challenge to copy, see: [ICC Athens: ed25519](https://github.com/cryptohack/ctf-archive/tree/main/icc2022_ed25519-magic).
+
+## Deployment
+
+Run `python docker_deploy.py` to launch all the Docker challenges using docker-compose.

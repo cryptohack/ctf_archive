@@ -11,4 +11,4 @@ RUN chmod +r 2020.py
 
 USER chall
 
-ENTRYPOINT socat tcp-l:2020,fork,reuseaddr exec:"python 2020.py"
+ENTRYPOINT socat tcp-l:1337,fork,reuseaddr exec:"python 2020.py"

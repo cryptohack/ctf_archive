@@ -6,4 +6,3 @@ description: >-
   Can you guess the 2020th number?
 base64_flag: 'VGV0Q1RGezIwMjBfbjB0XzRfcHIzZDFjdDRibDNfeTM0cn0='
 flag_format: 'TetCTF{FLAG}'
-port: 2020

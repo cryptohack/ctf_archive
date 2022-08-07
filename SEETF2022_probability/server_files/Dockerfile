@@ -11,4 +11,4 @@ RUN chmod +r probability.py
 
 USER chall
 
-ENTRYPOINT socat tcp-l:24336,fork,reuseaddr exec:"python probability.py"
+ENTRYPOINT socat tcp-l:1337,fork,reuseaddr exec:"python probability.py"
