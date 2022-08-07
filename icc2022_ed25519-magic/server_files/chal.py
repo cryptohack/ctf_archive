@@ -29,19 +29,7 @@ def sc():
 
 
 def get_keys():
-    if os.path.exists("sk.txt") and os.path.exists("vk.txt"):
-        with open("sk.txt", "rb") as f:
-            sk = f.read()
-        with open("vk.txt", "rb") as f:
-            vk = f.read()
-        signing_key = ed25519.SigningKey(sk)
-        verifying_key = ed25519.VerifyingKey(vk)
-    else:
-        signing_key, verifying_key = ed25519.create_keypair()
-        with open("sk.txt", "wb") as f:
-            f.write(signing_key.to_bytes())
-        with open("vk.txt", "wb") as f:
-            f.write(verifying_key.to_bytes())
+    signing_key, verifying_key = ed25519.create_keypair()
     return signing_key, verifying_key
 
 

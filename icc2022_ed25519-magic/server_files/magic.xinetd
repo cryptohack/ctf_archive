@@ -7,13 +7,13 @@ service magic
         log_type                = FILE /var/log/xinetd.log
         log_on_success          = HOST PID EXIT DURATION
         log_on_failure          = HOST
-        user                    = root
+        user                    = ctf
 
         bind                    = 0.0.0.0
         port                    = 21012
 
         server                  = /usr/bin/python3
-        server_args             = -u /chal.py
+        server_args             = -u /app/chal.py
 
         type                    = UNLISTED
 
