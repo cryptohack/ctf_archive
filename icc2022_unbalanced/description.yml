@@ -1,8 +1,0 @@
-name: Unbalanced
-author: CryptoHack
-original_ctf: ICC Athens
-year: 2022
-description: >-
-  I want to keep my private key small, but I've heard this is dangerous. I think I've found a way around this though!
-base64_flag: SUNDe3VuYjRsYW5jM2RfcHIxbTNzXzBubHlfbTRrM190aDFuZ3NfdzByczN9
-flag_format: 'ICC{FLAG}'
