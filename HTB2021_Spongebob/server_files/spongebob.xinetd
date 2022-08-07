@@ -1,0 +1,22 @@
+service spongebob
+{
+        disable                 = no
+        socket_type             = stream
+        protocol                = tcp
+        wait                    = no
+        log_type                = FILE /var/log/xinetd.log
+        log_on_success          = HOST PID EXIT DURATION
+        log_on_failure          = HOST
+        user                    = ctf
+
+        bind                    = 0.0.0.0
+        port                    = 55510
+
+        server                  = /usr/bin/python3
+        server_args             = -u /app/spongebob.py
+
+        type                    = UNLISTED
+
+        per_source              = 10
+        rlimit_cpu              = 60
+}
