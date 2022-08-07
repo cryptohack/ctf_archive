@@ -1,0 +1,10 @@
+name: Calm Down
+author: Mystiz
+original_ctf: 'HKCERT CTF'
+year: 2020
+description: >-
+  I am so excited having a chance talking to Alice. She told me to calm down - and sent me an encrypted secret.
+base64_flag: 'aGtjZXJ0MjB7YzRsbV9kMHduXzRuZF9zMGx2M190aDNfY2g0bGxlbjllfQ=='
+flag_format: 'hkcert20{...}'
+port: 19609
+

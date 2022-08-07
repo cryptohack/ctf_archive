@@ -1,0 +1,1 @@
+message = b'Hey, congratulations on solving the challenge. But please hkcert20{c4lm_d0wn_4nd_s0lv3_th3_ch4llen9e}.'
