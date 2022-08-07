@@ -31,6 +31,7 @@ def get_free_port(chal_alias):
             if port >= 256**2:
                 port = 1024
     port_mappings[chal_alias] = port
+    used_ports.append(port)
     return port
 
 
