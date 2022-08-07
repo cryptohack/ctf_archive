@@ -15,9 +15,9 @@ for port in range(13370, 13401):
 
 
 def challenge_name_to_alias(ctf, year, name):
-    alias = f"{ctf}{year}-{name}"
+    alias = f"{name}-{ctf}{year}"
     alias = alias.lower().replace(' ', '_')
-    return re.sub('[^\w-]+', '', alias)
+    return re.sub('[^\w-]+', '', alias)[:29]
 
 
 # Generate deterministic "random" port for challenge
