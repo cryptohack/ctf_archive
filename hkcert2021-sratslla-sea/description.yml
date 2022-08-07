@@ -1,0 +1,10 @@
+name: Sratslla SEA
+author: Mystiz
+original_ctf: 'HKCERT CTF'
+year: 2021
+description: >-
+  `AddRoundKey`, `SubBytes`, `ShiftRows` and `MixColumns` are four crucial components are AES. They are used to protect the world in 2021. I wonder what will happen if some of them is out of function.
+base64_flag: 'aGtjZXJ0MjF7YTNzX3N0cjF2M3NfZjByXzRfYjN0NzNyX3cwcjFkXzRuZF9jXzRsbF9zNzRyX2QwZTVfdDAwfQ=='
+flag_format: 'hkcert21{...}'
+port: 19614
+

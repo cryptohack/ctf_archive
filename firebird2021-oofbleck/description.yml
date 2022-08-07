@@ -1,0 +1,10 @@
+name: Oofbleck
+author: Mystiz
+original_ctf: 'Firebird Internal CTF'
+year: 2021
+description: >-
+  Some of the block cipher modes of operation are pretty vulnerable, which includes but not limited to padding oracle in CBC, key-recovery attacks with repeated nonces in GCM and _Zerologon_ in CFB8... What about OFB?
+base64_flag: 'ZmlyZWJpcmR7dW5mMHJ0dW40dDNseV8xdF9pNV9zMF9oNHJkX3QwX2czdF9jcnlwNzBncjRwaHlfZDBuM19yMTloN30='
+flag_format: 'firebird{...}'
+
+

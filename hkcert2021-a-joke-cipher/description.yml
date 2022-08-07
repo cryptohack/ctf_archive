@@ -1,0 +1,8 @@
+name: A Joke Cipher
+author: Mystiz
+original_ctf: 'HKCERT CTF'
+year: 2021
+description: >-
+  In the beginning of 2020, Khaled A. Nagaty invented a cryptosystem based on key exchange. The cipher is faster than ever... It is impossible to break, right?
+base64_flag: 'aGtjZXJ0MjF7dGgxc19pNV93aDR0X3czX2M0bGwzZF9zbjRrM28xbF9jcnlwdDBzeTV0M219'
+flag_format: 'hkcert21{...}'

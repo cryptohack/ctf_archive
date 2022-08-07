@@ -1,0 +1,10 @@
+name: Authenticator
+author: Mystiz
+original_ctf: 'Firebird Internal CTF'
+year: 2022
+description: >-
+  Hash-based authentication is great and I have invented one. Can you prove that my system is secure?
+base64_flag: 'ZmlyZWJpcmR7eTB1X2QwbjdfbjMzZF90MF9wcjNjMG1wdTczXzN2ZXJ5N2gxbjlfNG55dzR5fQ=='
+flag_format: 'firebird{...}'
+port: 19615
+
