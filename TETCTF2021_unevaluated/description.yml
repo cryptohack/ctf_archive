@@ -1,6 +1,6 @@
 name: Unevaluated
 author: NDH
-original_ctf: TETCTF 2021
+original_ctf: TETCTF
 year: 2021
 description: >-
   We’re about to launch a new public key cryptosystem, but its security has not been carefully reviewed yet. Can you help us?
