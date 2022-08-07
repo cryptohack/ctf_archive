@@ -10,7 +10,7 @@ service hardcore
         user                    = ctf
 
         bind                    = 0.0.0.0
-        port                    = 33281
+        port                    = 1337
 
         server                  = /app/hardcore
 

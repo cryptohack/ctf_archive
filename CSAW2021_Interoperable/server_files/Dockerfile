@@ -14,4 +14,3 @@ COPY interoperable.xinetd /etc/xinetd.d/interoperable
 RUN chown -R ctf /app
 
 CMD xinetd -dontfork
-EXPOSE 25012

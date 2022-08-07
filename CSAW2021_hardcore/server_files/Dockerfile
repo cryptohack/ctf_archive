@@ -13,4 +13,3 @@ COPY hardcore.xinetd /etc/xinetd.d/hardcore
 RUN chown -R ctf /app
 
 CMD xinetd -dontfork
-EXPOSE 33281
