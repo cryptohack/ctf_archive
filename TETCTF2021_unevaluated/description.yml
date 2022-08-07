@@ -1,0 +1,9 @@
+name: Unevaluated
+author: NDH
+original_ctf: TETCTF 2021
+year: 2021
+description: >-
+  We’re about to launch a new public key cryptosystem, but its security has not been carefully reviewed yet. Can you help us?
+
+base64_flag: VGV0Q1RGe2gwbTBtMHJwaDFzbV8xc18wdXJfZnIxM25kLW1vYmk6KjEwMCoyMzExOTkxMTEwMDcjfQ==
+flag_format: 'TetCTF{FLAG}'
