@@ -1,8 +1,0 @@
-name: Functional
-author: CryptoHack
-original_ctf: ICC Athens
-year: 2022
-description: >-
-  It only took me four heat deaths of the universe to encrypt this flag.
-base64_flag: SUNDe04wd195MHVfNHJlX2FfbWFzdDNyXzBmX3QzaF9sMW4zNHJfcjNjdXJyM25jM3MhfQ==
-flag_format: 'ICC{FLAG}'
