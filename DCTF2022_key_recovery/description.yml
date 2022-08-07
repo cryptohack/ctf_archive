@@ -1,0 +1,11 @@
+name: 'Key recovery'
+author: 'zeski'
+original_ctf: 'DCTF'
+year: 2022
+
+description: >-
+  I got bored and made a new block cipher, but someone stole my flag and now i need to break it to get it back. Will you help me?
+
+base64_flag: 'ZGN0ZntNNGsxbmdfU2IweDNzXzFzX3QwMF9oNHJkfQ=='
+
+flag_format: 'dctf{\w+}'
