@@ -1,6 +1,6 @@
 name: Hardcore
 author: CryptoHack
-original_ctf: CSAW Quals 2021
+original_ctf: CSAW Quals
 year: 2021
 description: >-
   I wrote this oracle in rust so that it can't sue companies over java stuff.
