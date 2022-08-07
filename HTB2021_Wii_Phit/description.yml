@@ -1,8 +1,0 @@
-name: Wii Phit
-author: CryptoHack
-original_ctf: HTB Cyber Apocalypse 2021
-year: 2021
-description: >-
-  The aliens have encrypted our save file from Wii Phit and we're about to lose our 4,869 day streak!! They're even taunting us with a hint. I think the alien's are getting a bit over-confident if you ask me.
-base64_flag: Q0hUQntFcmRvcy1TdHJhdXMtQ29uamVjdHVyZX0=
-flag_format: 'CHTB{FLAG}'
