@@ -10,7 +10,7 @@ service spongebob
         user                    = ctf
 
         bind                    = 0.0.0.0
-        port                    = 55510
+        port                    = 1337
 
         server                  = /usr/bin/python3
         server_args             = -u /app/spongebob.py

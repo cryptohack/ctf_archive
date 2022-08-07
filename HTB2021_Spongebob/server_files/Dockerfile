@@ -13,4 +13,3 @@ COPY spongebob.xinetd /etc/xinetd.d/spongebob
 RUN chown -R ctf /app
 
 CMD xinetd -dontfork
-EXPOSE 55510

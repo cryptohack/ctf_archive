@@ -7,4 +7,3 @@ description: >-
   
 base64_flag: ZmxhZ3tCYWJ5X3N0ZXBzX2hhdmVfYmVlbl9hQm9MaVNoZWRfYnlfb3VyX2NvZmFjdG9yX292ZXJsb3Jkc30=
 flag_format: 'flag{FLAG}'
-port: 52921

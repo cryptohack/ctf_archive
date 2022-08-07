@@ -13,4 +13,3 @@ COPY abolish.xinetd /etc/xinetd.d/abolish
 RUN chown -R sage /app
 
 ENTRYPOINT ["/usr/sbin/xinetd", "-dontfork"]
-EXPOSE 52921
