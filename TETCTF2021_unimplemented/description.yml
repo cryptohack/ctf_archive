@@ -1,0 +1,9 @@
+name: Unimplemented
+author: NDH
+original_ctf: TETCTF 2021
+year: 2021
+description: >-
+  A new public key encryption algorithm is being invented, but the author is not quite sure how to implement the decryption routine correctly. Can you help him?
+
+base64_flag: VGV0Q1RGe2MwdW50MW5nXzFzX24wdF80bHc0eXNfMzRzeS12aW5hOioxMDAqNDgwMTIwMjM1NzgwMjQjfQ==
+flag_format: 'TetCTF{FLAG}'

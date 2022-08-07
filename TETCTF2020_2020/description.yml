@@ -1,0 +1,9 @@
+name: 2020
+author: ndh
+original_ctf: TETCTF
+year: 2020
+description: >-
+  Can you guess the 2020th number?
+base64_flag: 'VGV0Q1RGezIwMjBfbjB0XzRfcHIzZDFjdDRibDNfeTM0cn0='
+flag_format: 'TetCTF{FLAG}'
+port: 2020

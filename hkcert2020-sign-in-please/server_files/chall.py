@@ -1,13 +1,7 @@
-# Challenge written by Mystiz.
-# Signature: PHNjcmlwdD5jb25zb2xlLmxvZygnVEhJUyBDSEFMTEVOR0UgSVMgV1JJVFRFTiBGT1IgSEtDRVJUIENURiBBTkQgSVMgTk9UIEZPUiBGUkFOS0lFIExFVU5HIFRPIFBMQUdBUklaRS4nKTwvc2NyaXB0Pg==
-
 import base64
 import hashlib
 import os
 import random
-
-from secret import flag
-
 
 def parse_pbox(payload):
     return list(map(int, payload[1:-1].split(',')))
@@ -49,6 +43,7 @@ class Client:
 
 def main():
     password = base64.b64encode(os.urandom(12))
+    flag = os.environ.get('FLAG', 'hkcert20{***REDACTED***}')
 
     s = Server(password)
     c = Client(password)

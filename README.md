@@ -52,13 +52,14 @@ your_challenge
  - `description.yml`
    - Data in this file is used to set the metadata for the challenge
    - Please ensure to **base64 encode** your flag
+   - Please pick a **random port** between 1024-65535 - to generate a random port, you can run the file `random_port.py`.
  - `Dockerfile`
-   - All dynamic challenges must be built from a Dockerfile
-   - Please pick a **random port** between 1024-65535
-   - To generate a random port, you can run the file `random_port.py`. 
-   - The flag within `description.yml` is decoded and set as the environment variable FLAG within the container automatically
+   - All dynamic challenges must be built from a Dockerfile. `socat` or `xinetd` can be used to bind a challenge file to a port.
+   - For the Dockerfile base image, please use a specific version not latest, e.g. use `ubuntu:22.04` not `ubuntu:latest` - this ensures the challenge will still work in the future.
+   - Ensure the port the challenge is run on matches the port specified in the `description.yml`.
+   - The flag within `description.yml` is decoded and set as the environment variable `FLAG` within the container automatically. So you can load the flag using `flag = os.environ["FLAG"]` instead of importing a file.
  - `server_files/YOUR_CHALLENGE_FILES`
-   - The files in `server_files` will be hosted within a docker container
+   - The files in `server_files` will be hosted within a Docker container
  - `release_files/YOUR_CHALLENGE_FILES`
    - All files within `release_files` will be those which you want shared with the players
    - Files in this directory which are also on the server-side should be symlinked
