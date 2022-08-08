@@ -1,0 +1,8 @@
+name: RSA Permutation
+author: rkm0959
+original_ctf: "WACON 2022"
+year: 2022
+description: >-
+  So I got all the hex digits of the private key, but it seems that the hex digits went through some sort of a permutation.... Can you help me?
+base64_flag: "V0FDb257c2h1ZmZsZV9hbGxfdGhlX2hleGVzX2J1dF9zdGlsbF9IZW5pbmdlcl9TaGFjaGFtfQ=="
+flag_format: "WACon{FLAG}"
