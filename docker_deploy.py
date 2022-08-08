@@ -62,7 +62,7 @@ for chal in get_subfolders(cwd):
             compose_file.append(f'      - {port}:{DOCKER_PORT}')
             compose_file.append(f'    restart: always')
             compose_file.append(f'    environment:')
-            compose_file.append(f'      - "FLAG={base64.b64decode(data["base64_flag"]).decode()}"')
+            compose_file.append(f'      - "FLAG={base64.b64decode(data["base64_flag"]).decode().strip()}"')
             compose_file.append(f'    deploy:')
             compose_file.append(f'      resources:')
             compose_file.append(f'        limits:')
