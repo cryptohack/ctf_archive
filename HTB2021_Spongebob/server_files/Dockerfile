@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-RUN apt update && apt -y dist-upgrade && apt -y install xinetd python3
+RUN apt update && apt -y install xinetd python3
 
 RUN useradd ctf
 

@@ -36,7 +36,6 @@ def get_free_port(chal_alias):
 def get_subfolders(directory):
     subfolders = []
     for f in os.scandir(directory):
-        print(f.path)
         if f.is_dir():
             part = os.path.basename(os.path.normpath(f))
             if not part.startswith("."):
@@ -79,4 +78,4 @@ if __name__ == "__main__":
     with open('docker-compose.yml', 'w') as f:
         f.write(to_write)
 
-    os.system("docker-compose up --build -d")
+    os.system("docker-compose --compatibility up --build -d")
