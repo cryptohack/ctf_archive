@@ -1,6 +1,6 @@
 name: SpongeBob SquarePants / Battle for Bikini Bottom - Rehydrated
 author: CryptoHack
-original_ctf: HTB Cyber Apocalypse 2021
+original_ctf: HTB Cyber Apocalypse
 year: 2021
 description: >-
   * Wait, `spongebob` and `squarepants` don't hash to the same thing?

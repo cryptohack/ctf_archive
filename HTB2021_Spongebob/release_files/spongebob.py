@@ -1,1 +1,1 @@
-./server_files/spongebob.py
+../server_files/spongebob.py

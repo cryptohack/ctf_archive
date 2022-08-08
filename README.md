@@ -10,7 +10,7 @@ Please be aware that all challenges submitted to this repository are released un
 
 ## Submission
 
-We want to see great cryptography challenges submitted to this repository. To submit a challenge, all you need to do is open a pull request that adds a directory to this repo that respects the following formats:
+To submit a challenge, all you need to do is open a pull request that adds a directory to this repo that respects the following formats:
 
 ### Static Challenges
 
@@ -24,7 +24,7 @@ your_challenge
 │   └── go_in_here.sage
 ```
 
-For an example of a static challenge to copy, see: [ICC Athens: Unbalanced](https://github.com/cryptohack/ctf-archive/tree/main/icc2022_unbalanced). 
+For an example of a static challenge to copy, see [ICC Athens: Unbalanced](https://github.com/cryptohack/ctf-archive/tree/main/ICC2022_unbalanced). 
 
  - `description.yml`
    - Data in `description.yml` is used to set metadata for the challenge
@@ -49,7 +49,7 @@ your_challenge
 │   └── maybe_another_one.py@ -> server_files/maybe_another_one.py
 ```
 
-For an example of a dynamic challenge to copy, see: [ICC Athens: ed25519](https://github.com/cryptohack/ctf-archive/tree/main/icc2022_ed25519-magic).
+For an example of a dynamic challenge to copy, see [ICC Athens: ed25519](https://github.com/cryptohack/ctf-archive/tree/main/ICC2022_ed25519-magic).
 
  - `description.yml`
    - Data in this file is used to set the metadata for the challenge
