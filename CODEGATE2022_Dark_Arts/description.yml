@@ -1,0 +1,8 @@
+name: Dark Arts
+author: rkm0959
+original_ctf: "CODEGATE 2022"
+year: 2022
+description: >-
+  Breaking random functions is a dark art, and I need your help in this.
+base64_flag: "Q09ERUdBVEV7SV90b2xkX3lvdV9idWlsZGluZ19zZWN1cmVfUFJGc19pc19oYXJkXzoofQ=="
+flag_format: "CODEGATE{FLAG}"
