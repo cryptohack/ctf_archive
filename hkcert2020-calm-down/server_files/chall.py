@@ -39,9 +39,7 @@ class Challenge:
         print(f'[pkey] {n}')
 
     def get_secret_message(self):
-        target = long_to_bytes(random.randint(0, self.key.n-1))
-        print(f'[targ] {base64.b64encode(target).decode()}')
-        ciphertext = self.key.encrypt(target)
+        ciphertext = self.key.encrypt(self.message)
         ciphertext = base64.b64encode(ciphertext).decode()
         print(f'[shhh] {ciphertext}')
 
