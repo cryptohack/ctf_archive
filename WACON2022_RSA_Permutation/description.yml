@@ -1,6 +1,6 @@
 name: RSA Permutation
 author: rkm0959
-original_ctf: "WACON 2022"
+original_ctf: "WACON"
 year: 2022
 description: >-
   So I got all the hex digits of the private key, but it seems that the hex digits went through some sort of a permutation.... Can you help me?
