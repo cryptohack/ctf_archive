@@ -1,0 +1,8 @@
+name: 1n_jection
+author: deuterium
+original_ctf: Zh3r0 CTF V2
+year: 2021
+description: >-
+  "COVID: *exists* vaccine jokes: *challenge_name*"
+base64_flag: emgzcjB7d2gwX3RoMHVnaDdfYjFqM2M3MTBuNV9mcjBtX25ea190MF9uX2MwdWxkX2IzX3MwMDAwMF9jMDAwMDAwMGwhfQ==
+flag_format: 'zh3r0{.*}'
