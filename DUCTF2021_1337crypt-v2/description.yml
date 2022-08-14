@@ -1,0 +1,8 @@
+name: 1337crypt v2
+author: joseph
+original_ctf: DownUnderCTF
+year: 2021
+description: >-
+  1337crypt is back. This time, with added complexity.
+base64_flag: RFVDVEZ7bWFudGlzc2FfaW5fY3J5cHRvPz9fbjBfdGg0bmtzISF9
+flag_format: 'DUCTF{FLAG}'

@@ -1,0 +1,8 @@
+name: 1337crypt
+author: joseph
+original_ctf: DownUnderCTF
+year: 2020
+description: >-
+  Can you solve my factorisation problem if I give you a hint?
+base64_flag: RFVDVEZ7d2gwX04zM2RzX3ByM2NJc2kwbl93aDNuX3kwdV9oNHYzX2MwcHAzcnNtaXRoc19NM3Rob2R9
+flag_format: 'DUCTF{FLAG}'

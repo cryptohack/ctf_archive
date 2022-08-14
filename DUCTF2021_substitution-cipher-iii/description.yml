@@ -1,0 +1,8 @@
+name: Substitution Cipher III
+author: joseph
+original_ctf: DownUnderCTF
+year: 2021
+description: >-
+  Wait a MInute, that's not a substitution cipher!
+base64_flag: RFVDVEZ7TVFfMXNfZnVuX2E1ZTM5Y2YyMWF9
+flag_format: 'DUCTF{FLAG}'
