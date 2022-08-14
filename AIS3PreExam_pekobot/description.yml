@@ -1,0 +1,8 @@
+name: pekobot
+author: maple3142
+original_ctf: AIS3 Pre-Exam
+year: 2022
+description: >-
+  I am a bot imitating Pekora. You can talk with me through Elliptic-curve Diffie–Hellman protocol!
+base64_flag: QUlTM3thX3ZlcnlfYmFkX2VjY19pbXBsZW1lbnRhdGlvbn0K
+flag_format: 'AIS3{...}'
