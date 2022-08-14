@@ -1,0 +1,8 @@
+name: RSA Secret Sharing
+author: rkm0959
+original_ctf: "WACON"
+year: 2022
+description: >-
+  ON 2-out-of-3 SECRET SHARING BASED ON RSA - MemeCrypt 2022
+base64_flag: "V0FDb257d2Vfc2hvdWxkX3Byb2JhYmx5X3VzZV9hX2JldHRlcl9STkdfdGhhbl9MQ0chISFfKGFuZF9ob3BlZnVsbHlfcmVtb3ZlX3RoZV90cnVzdGVkX3RoaXJkX3BhcnR5Xzp3aW5rOil9"
+flag_format: "WACon{FLAG}"
