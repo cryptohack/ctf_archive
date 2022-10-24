@@ -1,0 +1,8 @@
+name: Real Mersenne
+author: deuterium
+original_ctf: Zh3r0 CTF V2
+year: 2021
+description: >-
+  "Do you believe in games of luck? I hope you make your guesses real or you'll be floating around,"
+base64_flag: 'emgzcjB7cjM0bF9tM25fZDM0bF93MTdoX20zcjUzbm4zX3cxN2hfcjM0bF92NGx1M3N9'
+flag_format: 'zh3r0{.*}'
