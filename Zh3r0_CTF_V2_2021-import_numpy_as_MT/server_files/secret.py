@@ -1,0 +1,1 @@
+flag = b'zh3r0{wh0_th0ugh7_7h3_m3r53nn3_7w1573r_w45_5o_pr3d1c74bl3?c3rt41nly_n0t_m47454n0}'
