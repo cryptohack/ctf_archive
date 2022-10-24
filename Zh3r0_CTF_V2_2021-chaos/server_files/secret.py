@@ -1,0 +1,1 @@
+flag = b'zh3r0{something_chaotic_may_look_random_enough_but_may_be_not_sufficiently_secure} ,courtsey crazy contini : https://littlemaninmyhead.wordpress.com/2015/09/28/so-you-want-to-learn-to-break-ciphers/'
