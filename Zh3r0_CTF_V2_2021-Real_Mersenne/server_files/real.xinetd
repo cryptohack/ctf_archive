@@ -1,4 +1,4 @@
-service numpymt
+service real
 {
     disable        = no
     sockety_type   = stream
