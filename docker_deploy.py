@@ -51,6 +51,7 @@ for chal in get_subfolders(cwd):
             data = yaml.safe_load(f)
 
         chal_alias = challenge_name_to_alias(data['original_ctf'], data['year'], data['name'])
+        print(f"Adding {chal_alias}...")
 
         if os.path.isdir(os.path.join(cwd, chal, "server_files")): # is dynamic chal
             port = get_free_port(chal_alias)
