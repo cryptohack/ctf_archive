@@ -1,9 +1,0 @@
-name: aBoLiSh taBLeS
-author: CryptoHack
-original_ctf: CSAW Finals 2021
-year: 2021
-description: >-
-  I believe that DLOG > CDH > DDH, strictly. So to increase security, I never reveal my signatures.
-  
-base64_flag: ZmxhZ3tCYWJ5X3N0ZXBzX2hhdmVfYmVlbl9hQm9MaVNoZWRfYnlfb3VyX2NvZmFjdG9yX292ZXJsb3Jkc30=
-flag_format: 'flag{FLAG}'
