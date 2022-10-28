@@ -1,0 +1,8 @@
+name: Lack of Entropy
+author: Mystiz
+original_ctf: 'Firebird Internal CTF'
+year: 2022
+description: >-
+  Mystiz's computer is lack of entropy. He needs to reuse randomness to generate the primes for RSA...
+base64_flag: 'ZmlyZWJpcmR7YjFuNHJ5X3MzNHJjaF9mMHJfdGgzX3cxbiF9'
+flag_format: 'firebird{...}'

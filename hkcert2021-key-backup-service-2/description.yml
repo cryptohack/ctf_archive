@@ -1,0 +1,9 @@
+name: Key Backup Service 2
+author: Mystiz
+original_ctf: 'HKCERT CTF'
+year: 2021
+description: >-
+  Mystiz is really lazy. He expects that someone would crack the bank-level encryption, but he doesn't care about that. After all, the darkest secret is not that dark.
+  He decided to change the numbers and release it to the public again. Now crack it!
+base64_flag: 'aGtjZXJ0MjF7eTB1X2QwbnRfbjMzZF9wNDFydzE1ZV85Y2RfMWZfeTB1X2M0bl9kMF9pN18xbl9iNHRjaH0='
+flag_format: 'hkcert21{...}'

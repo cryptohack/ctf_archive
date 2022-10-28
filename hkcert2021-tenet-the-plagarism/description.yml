@@ -1,0 +1,10 @@
+name: 'Tenet: The Plagarism'
+author: Mystiz
+original_ctf: 'HKCERT CTF'
+year: 2021
+description: >-
+  The deadline for writing challenges is coming!
+  Mystiz, who claimed himself <a href="https://mystiz.hk/posts/2021/2021-03-28-hkcert-ctf/#interesting-flag-submissions-osint-master">not well-known for reusing challenges</a>, decided to free-ride and plagarize challenges from HKCERT CTF 2020. Maybe you can reuse the solve script last year for the flag.
+  Ciphertext: `6ccb80c46c19243a37633d316a66871ca70ec8a44f48a80134f31d8d27f920c6bd5d810831833221d0f282130d2c222de38c2080ef995b2ad10dc5af8518`
+base64_flag: 'aGtjZXJ0MjF7bTF0bV9sMDBrZWRfZ3IzNHRfYnU3X24wdF90aDFzX3QxbTN9'
+flag_format: 'hkcert21{...}'
