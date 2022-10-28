@@ -7,7 +7,7 @@ WORKDIR /app
 
 RUN chown ctf /app
 
-COPY challenge.py secret.py .
+COPY challenge.py .
 COPY real.xinetd /etc/xinetd.d/real
 
 CMD xinetd -dontfork

@@ -7,7 +7,7 @@ WORKDIR /app
 
 RUN chown ctf /app
 
-COPY challenge.py secret.py .
+COPY challenge.py .
 COPY chaos.xinetd /etc/xinetd.d/chaos
 
 CMD xinetd -dontfork

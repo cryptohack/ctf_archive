@@ -2,6 +2,7 @@ import math
 import random
 import re
 import mmh3
+import os
 
 def randbytes(n): return bytes ([random.randint(0,255) for i in range(n)])
 
@@ -114,7 +115,7 @@ while True:
         elif option == 3:
             key = bytes.fromhex(input("Enter key in hex\n"))
             if PASSWORD_DB.check_admin(key):
-                from flag import flag
+                flag = os.environ["FLAG"]
                 print(flag)
             else:
                 print("No Admin no flag")

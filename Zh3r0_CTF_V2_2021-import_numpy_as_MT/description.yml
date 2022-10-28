@@ -4,5 +4,5 @@ original_ctf: Zh3r0 CTF V2
 year: 2021
 description: >-
   "Python is so slow! Lets use nUmPy tO MAkE iT FaSTer. Only if there was a module for crypto in it :("
-base64_flag: 'emgzcjB7d2gwX3RoMHVnaDdfN2gzX20zcjUzbm4zXzd3MTU3M3JfdzQ1XzVvX3ByM2QxYzc0YmwzP2MzcnQ0MW5seV9uMHRfbTQ3NDU0bjB9jj'
+base64_flag: 'emgzcjB7d2gwX3RoMHVnaDdfN2gzX20zcjUzbm4zXzd3MTU3M3JfdzQ1XzVvX3ByM2QxYzc0YmwzP2MzcnQ0MW5seV9uMHRfbTQ3NDU0bjB9'
 flag_format: 'zh3r0{.*}'

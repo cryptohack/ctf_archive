@@ -7,7 +7,7 @@ WORKDIR /app
 
 RUN chown ctf /app
 
-COPY challenge.py secret.py .
+COPY challenge.py .
 COPY numpymt.xinetd /etc/xinetd.d/numpymt
 
 RUN pip install pycryptodome

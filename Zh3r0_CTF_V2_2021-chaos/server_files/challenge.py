@@ -1,4 +1,6 @@
-from secret import flag
+import os
+flag = os.environ["FLAG"]
+
 def ROTL(value, bits, size=32):
     return ((value % (1 << (size - bits))) << bits) | (value >> (size - bits))
 

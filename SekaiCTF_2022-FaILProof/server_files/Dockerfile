@@ -7,7 +7,7 @@ WORKDIR /app
 
 RUN chown ctf /app
 
-COPY flag.py source.py .
+COPY source.py .
 COPY ctf.xinetd /etc/xinetd.d/ctf
 
 CMD xinetd -dontfork

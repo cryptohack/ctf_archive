@@ -1,5 +1,6 @@
+import os
 import random
-from secret import flag
+flag = os.environ["FLAG"]
 from fractions import Fraction
 
 
