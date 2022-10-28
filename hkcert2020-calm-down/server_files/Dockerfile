@@ -9,8 +9,5 @@ RUN /home/ctfuser/venv/bin/pip install pycryptodome
 
 WORKDIR /home/ctfuser
 COPY *.py /home/ctfuser/
-<<<<<<< HEAD
-CMD socat TCP-LISTEN:19609,reuseaddr,fork EXEC:"stdbuf -i0 -o0 -e0 /home/ctfuser/venv/bin/python3 /home/ctfuser/chall.py"
-=======
+
 CMD socat TCP-LISTEN:1337,reuseaddr,fork EXEC:"stdbuf -i0 -o0 -e0 /home/ctfuser/venv/bin/python3 /home/ctfuser/chall.py"
->>>>>>> 52416fd394736080d93d84ef070166685ddace4a

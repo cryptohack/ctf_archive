@@ -1,4 +1,4 @@
-FROM sagemath/sagemath:9.5
+FROM sagemath/sagemath:9.6
 
 USER root
 RUN export DEBIAN_FRONTEND=noninteractive && apt update && apt -y dist-upgrade && apt -y install xinetd
