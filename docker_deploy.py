@@ -79,4 +79,4 @@ if __name__ == "__main__":
     with open('docker-compose.yml', 'w') as f:
         f.write(to_write)
 
-    os.system("docker-compose --compatibility up --build -d")
+    os.system("docker-compose --compatibility up --build --remove-orphans -d")
