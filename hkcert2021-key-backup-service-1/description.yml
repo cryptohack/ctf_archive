@@ -6,5 +6,3 @@ description: >-
   Mystiz made a key vault which could encrypts his darkest secrets (i.e., the flag). Everything is protected with a bank-level encryption (i.e., a 256-bit key). You are welcome to look at the encrypted secrets and praise his cryptographic knowledge.
 base64_flag: 'aGtjZXJ0MjF7eTB1X2QwbnRfbjMzZF9lX20zc3M0ZzNzX2Ywcl9icjBhZGM0czdfNHQ3YWNrX3doM25fbV9pNV9zbTQxbH0='
 flag_format: 'hkcert21{...}'
-port: 19612
-

@@ -6,5 +6,3 @@ description: >-
   Okay. My secure authentication system was proved insecure (see [here](https://github.com/samueltangz/ctf-archive-created/tree/master/20201006-hkcert-ctf/sign-in-please)) as it got exploited last year by a bunch of bad guys. I improved the system and you would not be able to eavesdrop the passwords ever again.
 base64_flag: 'aGtjZXJ0MjF7MXRfZDAzc243X2gzMXBfYnlfNGRkMW45X3AzcHAzcjV9'
 flag_format: 'hkcert21{...}'
-port: 19613
-

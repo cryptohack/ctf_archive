@@ -6,5 +6,3 @@ description: >-
   Every slightest mistake in cryptography would lead to a disastrous result. Let's see what will happen when you allow end-users to pick the mode of operation...
 base64_flag: 'aGtjZXJ0MjF7dzNfc2gwdTFkX24wdF9nMXYzX211Y2hfZnIzZWQwbV90MF91czNyNV93aDNuXzF0X2MwbTNzX3QwX2NyeXA3MGdyNHBoeX0='
 flag_format: 'hkcert21{...}'
-port: 19611
-
