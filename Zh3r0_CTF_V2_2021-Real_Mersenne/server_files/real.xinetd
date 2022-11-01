@@ -1,0 +1,22 @@
+service real
+{
+    disable        = no
+    sockety_type   = stream
+    protocol       = tcp
+    wait           = no
+    log_type       = FILE /var/log/xinetd.log
+    log_on_success = HOST PID EXIT DURATION
+    log_on_failure = HOST
+    user           = ctf
+
+    bind           = 0.0.0.0
+    port           = 1337
+
+    server         = /usr/bin/python3
+    server_args    = -u /app/challenge.py
+
+    type           = UNLISTED
+
+    per_source     = 2
+    rlimit_cpu     = 30
+}

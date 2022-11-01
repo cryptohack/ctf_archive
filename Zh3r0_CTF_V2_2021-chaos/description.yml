@@ -1,0 +1,8 @@
+name: Chaos
+author: deuterium
+original_ctf: Zh3r0 CTF V2
+year: 2021
+description: >-
+  "What's the fun of rolling up a hash function if it's not chaotic enough?"
+base64_flag: 'emgzcjB7c29tZXRoaW5nX2NoYW90aWNfbWF5X2xvb2tfcmFuZG9tX2Vub3VnaF9idXRfbWF5X2JlX25vdF9zdWZmaWNpZW50bHlfc2VjdXJlfQ=='
+flag_format: 'zh3r0{.*}'

@@ -1,0 +1,8 @@
+name: FaILProof Revenge
+author: deuterium
+original_ctf: SekaiCTF
+year: 2022
+description: >-
+  "I am sure it's failproof now, I have increased the security levels too!¬"
+base64_flag: 'U0VLQUl7YjAwbDNuNV80cjNfbXk1dDNyMTB1NV8xbl90aDMxcl8wd25fY2gzM2t5X3c0eTV9'
+flag_format: 'zh3r0{.*}'

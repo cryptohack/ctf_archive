@@ -1,0 +1,8 @@
+name: FaILProof
+author: deuterium
+original_ctf: SekaiCTF
+year: 2022
+description: >-
+  "I have designed a failproof encryption system with possibly arbitrarily small public keys. I will be as famous as Et Al one day, but only if I can somehow figure out a decryption mechanism..."
+base64_flag: 'U0VLQUl7dzNsbF8xX2d1MzU1X3kwdV9jNG5fNGx3NHk1XzRza19mMHJfbTByM18zcXU0dDEwbjVfd2gzbl9uMF8wbjNzX2wwMGsxbmd9'
+flag_format: 'zh3r0{.*}'

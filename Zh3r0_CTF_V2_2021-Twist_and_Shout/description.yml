@@ -1,0 +1,8 @@
+name: Twist and Shout
+author: deuterium
+original_ctf: Zh3r0 CTF V2
+year: 2021
+description: >-
+  "Wise men once said, “Well, shake it up, baby, now Twist and shout come on and work it on out” I obliged, not the flag is as twisted as my sense of humour"
+base64_flag: 'emgzcjB7N2gzX2Z1N3VyM19tMWdoN19iM19jNHA3MXY0NzFuZ19idTdfbjB3X3kwdV9rbjB3X2gwd190MF9sMDBrX2E3XzdoM19wNDU3fQ=='
+flag_format: 'zh3r0{.*}'
