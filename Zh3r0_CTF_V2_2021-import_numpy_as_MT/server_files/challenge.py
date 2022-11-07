@@ -2,7 +2,7 @@ import os
 from numpy import random
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
-flag = os.environ["FLAG"]
+flag = os.environ["FLAG"].encode()
 
 def rand_32():
     return int.from_bytes(os.urandom(4),'big')

@@ -1,6 +1,6 @@
 import hashlib
 from os import urandom, environ
-FLAG = environ["FLAG"]
+FLAG = environ["FLAG"].encode()
 
 
 def gen_pubkey(secret: bytes, hasher=hashlib.sha512) -> list:
