@@ -1,5 +1,6 @@
 name: Chaos
-author: deuterium
+authors:
+  - deuterium
 original_ctf: Zh3r0 CTF V2
 year: 2021
 description: >-

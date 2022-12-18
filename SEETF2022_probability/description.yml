@@ -1,5 +1,6 @@
 name: Probability
-author: Neobeo
+authors:
+  - Neobeo
 original_ctf: SEETF
 year: 2022
 description: >-

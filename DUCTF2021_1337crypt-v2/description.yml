@@ -1,5 +1,6 @@
 name: 1337crypt v2
-author: joseph
+authors:
+  - joseph
 original_ctf: DownUnderCTF
 year: 2021
 description: >-

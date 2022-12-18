@@ -1,5 +1,6 @@
 name: Sign in Please
-author: Mystiz
+authors:
+  - Mystiz
 original_ctf: 'HKCERT CTF'
 year: 2020
 description: >-

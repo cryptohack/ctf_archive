@@ -1,5 +1,6 @@
 name: 'Key recovery'
-author: 'zeski'
+authors:
+  - zeski
 original_ctf: 'DCTF'
 year: 2022
 description: >-

@@ -1,5 +1,6 @@
 name: Signature
-author: maple3142
+authors:
+  - maple3142
 original_ctf: TSJ CTF
 year: 2022
 description: >-

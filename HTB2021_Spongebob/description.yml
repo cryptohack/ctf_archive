@@ -1,5 +1,6 @@
 name: SpongeBob SquarePants / Battle for Bikini Bottom - Rehydrated
-author: CryptoHack
+authors:
+  - CryptoHack
 original_ctf: HTB Cyber Apocalypse
 year: 2021
 description: >-

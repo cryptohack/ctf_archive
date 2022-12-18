@@ -1,5 +1,6 @@
 name: 2020
-author: ndh
+authors:
+  - ndh
 original_ctf: TETCTF
 year: 2020
 description: >-

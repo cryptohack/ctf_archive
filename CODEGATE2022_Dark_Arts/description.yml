@@ -1,5 +1,6 @@
 name: Dark Arts
-author: rkm0959
+authors:
+  - rkm0959
 original_ctf: "CODEGATE CTF"
 year: 2022
 description: >-

@@ -1,5 +1,6 @@
 name: C0ll1d3r
-author: Mystiz
+authors:
+  - Mystiz
 original_ctf: 'Firebird Internal CTF'
 year: 2022
 description: >-

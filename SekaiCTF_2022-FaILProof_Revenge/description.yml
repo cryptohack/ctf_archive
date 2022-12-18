@@ -1,5 +1,6 @@
 name: FaILProof Revenge
-author: deuterium
+authors:
+  - deuterium
 original_ctf: SekaiCTF
 year: 2022
 description: >-

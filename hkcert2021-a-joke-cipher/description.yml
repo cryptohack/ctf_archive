@@ -1,5 +1,6 @@
 name: A Joke Cipher
-author: Mystiz
+authors:
+  - Mystiz
 original_ctf: 'HKCERT CTF'
 year: 2021
 description: >-

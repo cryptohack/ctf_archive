@@ -1,5 +1,6 @@
 name: Functional
-author: CryptoHack
+authors:
+  - CryptoHack
 original_ctf: ICC Athens
 year: 2022
 description: >-

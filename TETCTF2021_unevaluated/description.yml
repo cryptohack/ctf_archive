@@ -1,5 +1,6 @@
 name: Unevaluated
-author: NDH
+authors:
+  - NDH
 original_ctf: TETCTF
 year: 2021
 description: >-

@@ -1,5 +1,6 @@
 name: Oofbleck
-author: Mystiz
+authors:
+  - Mystiz
 original_ctf: 'Firebird Internal CTF'
 year: 2021
 description: >-

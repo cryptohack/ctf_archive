@@ -1,5 +1,6 @@
 name: Substitution Cipher III
-author: joseph
+authors:
+  - joseph
 original_ctf: DownUnderCTF
 year: 2021
 description: >-
