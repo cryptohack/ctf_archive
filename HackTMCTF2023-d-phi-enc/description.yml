@@ -1,0 +1,10 @@
+name: d-phi-enc
+authors:
+  - y011d4
+original_ctf: HackTM CTF
+year: 2023
+description: >-
+  In CTF, there are many people who mistakenly encrypt p, q in RSA.
+  But this time...
+base64_flag: SGFja1RNe0hhdmUgeW91IHdhcm1lZCB1cD8gSWYgbm90LCBJIHN1Z2dlc3QgeW91IGNvbnNpZGVyIHRoZSBjYXNlIHdoZXJlIGU9NjU1MzcsIGFsdGhvdWdoIEkgZG9uJ3Qga25vdyBpZiBpdCdzIHNvbHZhYmxlLiBXaHkgZGlkIEkgc2F5IHRoYXQ/IEJlY2F1c2UgSSBoYXZlIHRvIG1ha2UgdGhpcyBmbGFnIG11Y2ggbG9uZ2VyIHRvIGF2b2lkIHNvbHZpbmcgaXQganVzdCBieSBjYWxjdWxhdGluZyB0aGUgY3ViaWMgcm9vdCBvZiBlbmNfZmxhZy59
+flag_format: 'HackTM{FLAG}'

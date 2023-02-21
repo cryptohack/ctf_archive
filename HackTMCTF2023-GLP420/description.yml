@@ -1,0 +1,9 @@
+name: GLP420
+authors:
+  - y011d4
+original_ctf: HackTM CTF
+year: 2023
+description: >-
+  I have developed a variant of GLP, GLP420!
+base64_flag: SGFja1RNe3BoaSwgbm90IHRvIG1lbnRpb24gUlNBLCBpcyBpbXBvcnRhbnQgZm9yIEdMUH0=
+flag_format: 'HackTM{FLAG}'
