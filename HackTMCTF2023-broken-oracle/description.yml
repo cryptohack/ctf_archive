@@ -1,0 +1,9 @@
+name: broken oracle
+authors:
+  - y011d4
+original_ctf: HackTM CTF
+year: 2023
+description: >-
+  I have reimplemented a cryptosystem, but it sometimes behaves strangely. But I don't think it matters.
+base64_flag: SGFja1RNe2g0djNfeTB1X3IzNGxseV9mMHVuZF80bGxfN2gzX2J1NjUuLi4/fQ==
+flag_format: 'HackTM{FLAG}'

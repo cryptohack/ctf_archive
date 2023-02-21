@@ -1,0 +1,9 @@
+name: unrandom DSA
+authors:
+  - y011d4
+original_ctf: HackTM CTF
+year: 2023
+description: >-
+  What if /dev/urandom is unrandom...?
+base64_flag: SGFja1RNe1kwdV80cjNfNG5fTTdfNG5kX0Q1NF9tNDU3M3IhIX0=
+flag_format: 'HackTM{FLAG}'

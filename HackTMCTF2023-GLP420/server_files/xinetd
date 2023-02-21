@@ -1,0 +1,19 @@
+service ctf
+{
+    disable        = no
+    type           = UNLISTED
+    wait           = no
+    server         = /usr/bin/sage
+    server_args    = /home/sage/server.sage
+    socket_type    = stream
+    protocol       = tcp
+    user           = sage
+    bind           = 0.0.0.0
+    port           = 1337
+    flags          = REUSE
+    per_source	   = 2
+    rlimit_cpu	   = 30
+    log_type       = FILE /home/sage/log
+    log_on_success = HOST PID EXIT DURATION
+    log_on_failer  = HOST
+}

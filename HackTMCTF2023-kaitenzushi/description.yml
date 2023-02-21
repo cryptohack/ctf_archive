@@ -1,0 +1,9 @@
+name: kaitenzushi
+authors:
+  - y011d4
+original_ctf: HackTM CTF
+year: 2023
+description: >-
+  also known as conveyor belt sushi
+base64_flag: SGFja1RNe3IwNzQ3M19wcjM1M3J2MzVfNTBtMzdoMW42fQ==
+flag_format: 'HackTM{FLAG}'
