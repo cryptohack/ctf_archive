@@ -1,0 +1,9 @@
+name: What a Curve !
+authors:
+  - Shadowwws
+original_ctf: 'Breizh CTF'
+year: 2023
+description: >-
+  Elliptic curves were originally studied for their beauty, then mathematics came.
+base64_flag: 'QlpIQ1RGezUzY2Mwbl9tNGQzX20zX2NoNG42M183aDE1XzFfaDBwM195MHVfM25qMHkzZF8xN30='
+flag_format: 'BZHCTF{FLAG}'
