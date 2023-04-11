@@ -68,7 +68,7 @@ for chal in get_subfolders(cwd):
             compose_file.append(f'      resources:')
             compose_file.append(f'        limits:')
             compose_file.append(f'          cpus: "0.3"')
-            compose_file.append(f'          memory: 50M')
+            compose_file.append(f'          memory: 150M')
 
 
 if __name__ == "__main__":
