@@ -1,0 +1,9 @@
+name: wise sage
+authors:
+  - Rumata888
+original_ctf: 'CTFZone'
+year: 2023
+description: >-
+  Only wise sages that can predict the future are allowed to see the magnificent flag!
+base64_flag: 'Y3Rmem9uZXtMTExfczR2M3NfdGgzX2Q0eV80ZzQxbg==='
+flag_format: 'ctfzone{FLAG}'
