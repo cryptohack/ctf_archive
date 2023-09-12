@@ -3,3 +3,4 @@ docker-compose.yml
 __pycache__/
 *.py[cod]
 *$py.class
+*.sage.py
