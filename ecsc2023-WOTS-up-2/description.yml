@@ -1,0 +1,9 @@
+name: WOTS Up 2
+authors:
+  - CryptoHack
+original_ctf: ECSC 2023 (Norway)
+year: 2023
+description: >-
+  I fixed the problem with my last scheme, now I can confidently sign my WOTScoin transactions.
+base64_flag: RUNTQ3swbmVfbTByM190MW0zX3MxZ240dHVyM19mZn0=
+flag_format: 'ECSC{FLAG}'

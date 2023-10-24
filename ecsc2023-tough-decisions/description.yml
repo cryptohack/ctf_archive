@@ -1,0 +1,9 @@
+name: Tough decisions
+authors:
+  - CryptoHack
+original_ctf: ECSC 2023 (Norway)
+year: 2023
+description: >-
+  Champagne for my real friends, real pain for my sham friends.
+base64_flag: RUNTQ3tEM2MxczEwbjRsX0xXRV9tMGRfMl80NDVmYjhkYzkxfQ==
+flag_format: 'ECSC{FLAG}'

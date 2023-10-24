@@ -1,0 +1,9 @@
+name: Blind
+authors:
+  - CryptoHack
+original_ctf: ECSC 2023 (Norway)
+year: 2023
+description: >-
+  Is this what people mean by "message blinding"?
+base64_flag: RUNTQ3szeHRyNGN0MW5nX21lc3NhZ2VzX2ZyMG1fczFnbmF0dXIzc19vbl9hX2dvbGRpbG9ja3NfY3VydjNfaXNfanVzdF9yaWdodF9hODRkNGE2YX0=
+flag_format: 'ECSC{FLAG}'
