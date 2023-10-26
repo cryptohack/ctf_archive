@@ -1,1 +1,0 @@
-../server_files/entry.sh
