@@ -1,0 +1,10 @@
+name: Put a ring on it
+authors:
+  - CryptoHack
+original_ctf: ECSC 2023 (Norway)
+year: 2023
+description: >-
+  Ring Signatures are used in some cryptocurrencies to provide anonymity for who has signed a transaction or sent money.
+  Can you break the anonymity of the ring signatures?
+base64_flag: RUNTQ3t0aHhfVmluYzA2ODJfNF9pbnNwaXJhdGlvbn0=
+flag_format: 'ECSC{FLAG}'
