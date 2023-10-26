@@ -1,0 +1,9 @@
+name: RRSSAA
+authors:
+  - CryptoHack
+original_ctf: ECSC 2023 (Norway)
+year: 2023
+description: >-
+  My primes are prefectly random. I wonder if you can find them.
+base64_flag: RUNTQ3ticnV0ZV9pdF9saWtlX2JydWNlXzQ5YTIyYTc0NjVlZGNkZWFiNWIwMWZmY2QzMjUxMTAzODJjNmY5M2Y0ZDFkODk4YmUwNTY5ZTVmOTdlZmU1NTc1NzRiMjhjODNiNjIwOWE1MDlkYmZlYTFjNDVmMDZjNTUxODkyOH0=
+flag_format: 'ECSC{FLAG}'

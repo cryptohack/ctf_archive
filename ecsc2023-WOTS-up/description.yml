@@ -1,0 +1,9 @@
+name: WOTS Up
+authors:
+  - CryptoHack
+original_ctf: ECSC 2023 (Norway)
+year: 2023
+description: >-
+  With the need to find post-quantum schemes, hash-based signatures are cool again.
+base64_flag: RUNTQ3toNHNoMW5nX2NoNDFuX3IzNGN0MW9uX2ZmX30=
+flag_format: 'ECSC{FLAG}'

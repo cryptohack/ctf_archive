@@ -1,0 +1,9 @@
+name: Irish flan
+authors:
+  - CryptoHack
+original_ctf: ECSC 2023 (Norway)
+year: 2023
+description: >-
+  Yum, time for dessert.
+base64_flag: RUNTQ3szcXUxdjRsM250X2szeV9yZWMwdmVyeV85ODhiMDk3NDJifQ==
+flag_format: 'ECSC{FLAG}'

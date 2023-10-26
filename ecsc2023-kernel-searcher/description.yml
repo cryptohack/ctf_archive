@@ -1,0 +1,9 @@
+name: Kernel searcher
+authors:
+  - CryptoHack
+original_ctf: ECSC 2023 (Norway)
+year: 2023
+description: >-
+  I have a super secret isogeny. Wanna know where your point ends up? Just send me your favourite coordinates.
+base64_flag: RUNTQ3tsZWFybmluZ190b19pc29nZW55fQ==
+flag_format: 'ECSC{FLAG}'
