@@ -3,8 +3,6 @@ import random # This is only used for the noise and not for the key, so it's fin
 import binascii
 import os
 
-from functools import reduce # Makes us feel like real programmers
-
 FLAG = os.getenv('FLAG')
 
 def dghv_encrypt(p, N, m):
@@ -13,7 +11,7 @@ def dghv_encrypt(p, N, m):
     """
     assert 2**7 <= N < 2**8 # Normally this is 2, but by using a bigger `N` we can encode ASCII bytes instead of bits! That's much more efficient. All `N` in this range should be secure, so let's make it an assertion
 
-    q = reduce(lambda x, y: x*y, [Crypto.Util.number.getPrime(128) for _ in range(8)]) # `q` can be any number, but as we all know, big primes are the safest numbers there are
+    q = random.getrandbits(1024)
     rmax = 2**128 / N / 4
     r = random.randint(0, rmax) # In v2.0, we will let `r` be negative as well as positive => double the randomness!
     return p*q + N*r + m
