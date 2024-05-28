@@ -1,0 +1,9 @@
+name: Additional problems
+authors:
+  - arneb
+original_ctf: 'CSC Belgium'
+year: 2024
+description: >-
+  Version 1.0 of our new encryption service has just launched! It is blazingly fast and uses state-of-the-art encryption. Stay tuned for version 2.0; I hear it will bring tons of improvements and security fixes.
+base64_flag: 'Q1NDe2xldDVfbTB2M19iMDB0c3RyNHBwMW5nX3QwX3YxLjF9'
+flag_format: 'CSC{FLAG}'
