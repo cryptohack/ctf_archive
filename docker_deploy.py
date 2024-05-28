@@ -42,7 +42,7 @@ def get_subfolders(directory):
                 subfolders.append(part)
     return subfolders
 
-compose_file = ["version: '3'", "services:"]
+compose_file = ["services:"]
 
 cwd = os.path.dirname(os.path.realpath(__file__))
 for chal in get_subfolders(cwd):
@@ -79,5 +79,5 @@ if __name__ == "__main__":
     with open('docker-compose.yml', 'w') as f:
         f.write(to_write)
 
-    os.system("docker-compose build --parallel")
-    os.system("docker-compose --compatibility up --remove-orphans -d")
+    os.system("docker compose build --parallel")
+    os.system("docker compose --compatibility up --remove-orphans -d")
