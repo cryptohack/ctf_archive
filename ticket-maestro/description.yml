@@ -1,0 +1,9 @@
+name: Ticket Maestro
+authors:
+  - Mathias Hall-Andersen, zksecurity.xyz
+original_ctf: "CryptoHack"
+year: 2024
+description: >-
+  Mirror of Challenge for the ZKP Section
+base64_flag: "=="
+flag_format: "crypto{FLAG}"

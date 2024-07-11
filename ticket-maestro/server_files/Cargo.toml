@@ -1,0 +1,26 @@
+[package]
+name = "maestro"
+version = "0.1.0"
+edition = "2021"
+authors = ["Mathias Hall-Andersen <mathias@zksecurity.xyz>"]
+
+[dependencies]
+anyhow = "1.0.86"
+ark-bn254 = "0.3.0"
+ark-ec = "0.3.0"
+ark-ff = "0.3.0"
+ark-groth16 = "0.3.0"
+ark-r1cs-std = "0.3.1"
+ark-relations = "0.3.0"
+ark-serialize = "=0.3.0"
+ark-snark = "0.3.0"
+ark-std = "0.3.0"
+arkworks-native-gadgets = "1.2.0"
+arkworks-r1cs-gadgets = "1.2.0"
+arkworks-utils = { version = "1.0.1", features = ["poseidon_bn254_x5_3"] }
+blake2 = "0.10.6"
+hex = "0.4.3"
+rand = "0.8.5"
+rand_core = "0.6.4"
+serde = { version = "1.0.203", features = ["derive"] }
+serde_json = "1.0.120"
