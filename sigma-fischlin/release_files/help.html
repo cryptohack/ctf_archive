@@ -1,0 +1,41 @@
+<p>
+    Recall the definition of "Proof of Knowledge" from the NIZK challenge
+</p>
+
+<span class="note"><i class="fas fa-brain"></i>The notion of a "Proof of Knowledge" (as formalised by Bellare and Goldreich in '92) is as follows: If there exists an extractor, which given black box access to an efficient Prover P, can efficiently extract a witness <code>w</code>, then P "knows" <code>w</code>.
+     </span>
+</p>
+
+<p>
+    For &Sigma;-Protocols we have used the fact that a prover, after committing to a first message <code>a</code>, answering two different challenges <code>e</code>, allows the efficient computation of a witness. This allows for a generic extractor to efficiently extract <code>w</code> by completing a transcript, rewinding P to just after it sent <code>a</code>, and getting a second transcript with a different challenge.<br>
+    Even the Fiat-Shamir transform still used the rewinding Lemma, in conjunction with a programmable random oracle, to be able to show witness extraction.
+</p>
+
+<p><span class="note"><i class="fas fa-brain"></i>While this is a widely used proof technique, there are some specific situations where rewinding is not possible. For example when composing arbitrary protocols together, cryptographers sometimes use something called the UC framework, where using rewinding would allow the environment to distinguish between the real world and the ideal world, breaking the security proof.<br>
+    Such situations led to the concept of "Straigh Line Extraction", meaning an extractor that does *not* have rewinding power over the prover.
+</span>
+</p>
+
+<p>
+    In this challenge we are going to look at an alternative to the Fiat-Shamir transform, which does *not* rely on the rewinding lemma for security! Instead working with just "read" access to a Random Oracle. 
+</p>
+
+<p><span class="note"><i class="fas fa-brain"></i>More formally, given only a list of the RO calls made by Prover P, and the transcript of the proof, the extractor can recover a witness <code>w</code> satisfying the proved relation with the same probability that P could produce a proof.
+</span>
+</p>
+
+<p>
+    The Fischlin transformation  <a href="https://crypto.ethz.ch/publications/files/Fischl05b.pdf">[Fischlin'05]</a> is a generic transformation similar to Fiat-Shamir, which can make an arbitrary &Sigmal-Protocol into a straight-line extractable NIZK.<br>
+    The idea behind the protocol is to force the Prover to make multiple queries to the random oracle with satisfying transcripts for a given <code>a</code>, (in a way that a malicious prover can't avoid doing.) Then using the special-soundness property to extract <code>w</code> from these transcripts.<br>
+    For those looking for a less formal resource, personally I found this paper by <a href=" https://eprint.iacr.org/2024/526.pdf">[Chen, Lindell '24]</a> to have a nice overview of the algorithm. (Preliminaries, section 2.)
+</p>
+
+<p>
+    For this challenge we have implemented Fischlins Transform roughly as described in the original paper, (with a few simplifications,) and applied it to the OR proof from the earlier challenge.<br>
+    The goal of this challenge is related to a property called "witness-indistinguishability", which the &Sigma;<sub>OR</sub> protocol has, as it should not be possible for the verifier to detect which branch of the OR statement the prover is proving.
+</p>
+
+<p>
+    <span class="note"><i class="fas fa-brain"></i>Witness-Indistinguishability (WI) is a property which says that just by interacting with the Prover, the Verifier should not be able to distinguish which witness the Prover used in his proof. Or equivalently, it should not be possible to distinguish proofs made by different provers who know different witnesses. This can be a very useful property when proving the security of protocols which are carried out between many parties.
+</span>
+</p>
