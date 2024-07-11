@@ -5,8 +5,7 @@ from hamiltonicity import comm_params
 import json
 import os
 
-#FLAG = os.environ["FLAG"].encode()
-FLAG = "blabla"
+FLAG = os.environ["FLAG"].encode()
 
 numrounds = 128
 LocalTest = False
