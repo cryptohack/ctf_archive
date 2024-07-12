@@ -1,7 +1,7 @@
 name: Maybe Someday
 authors:
   - Mystiz
-original_ctf: 'Maybe Someday CTF'
+original_ctf: 'GoogleCTF'
 year: 2022
 description: >-
   Find a collision for my hash algorithm! It is basically military-graded: The output is 256-bit long, and discrete log is hard! I even made it harder such that you don't even have the public parameters!

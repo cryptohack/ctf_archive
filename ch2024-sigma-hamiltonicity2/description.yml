@@ -5,5 +5,5 @@ original_ctf: "CryptoHack"
 year: 2024
 description: >-
   Mirror of Challenge for the ZKP Section
-base64_flag: "=="
+base64_flag: "==" # active challenge so flag is hidden
 flag_format: "crypto{FLAG}"
