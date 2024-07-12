@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22.04
 
 # install rust and socat
 RUN apt-get update && apt-get install -y curl socat build-essential 
