@@ -1,0 +1,9 @@
+name: ECLCG
+authors:
+  - maple3142
+original_ctf: HITCON CTF
+year: 2024
+description: >-
+  LCG is fun, ECDSA is fun too, so why not combine them together?
+base64_flag: aGl0Y29ue2l0X2lzX2FsbF9MTExfYWxsX3RoZV93YXlfZG93bj9fYWx3YXlzX2hhdmVfYmVlbl86KX0=
+flag_format: 'hitcon{...}'
