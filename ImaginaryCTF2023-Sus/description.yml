@@ -1,0 +1,9 @@
+name: Sus
+authors:
+  - maple3142
+original_ctf: ImaginaryCTF
+year: 2023
+description: >-
+  Apparently, there is something weird happening with the prime generation.
+base64_flag: aWN0ZntpZGtfaWZfaXRfc29sdmFibGVfaWZfcV9pc18yK3ArcF4yX2luc3RlYWR9
+flag_format: 'ictf{...}'
