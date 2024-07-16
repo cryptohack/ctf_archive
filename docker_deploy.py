@@ -69,6 +69,11 @@ for chal in get_subfolders(cwd):
             compose_file.append(f'        limits:')
             compose_file.append(f'          cpus: "0.3"')
             compose_file.append(f'          memory: 150M')
+            compose_file.append(f'    healthcheck:')
+            compose_file.append(f'      test: /bin/bash -c "exec 3<>/dev/tcp/127.0.0.1/1337 && echo 1 >&3 && timeout 15 head -c1 <&3"')
+            compose_file.append(f'      interval: 1200s')
+            compose_file.append(f'      retries: 2')
+            compose_file.append(f'      start_period: {port % 240}s')
 
 
 if __name__ == "__main__":
