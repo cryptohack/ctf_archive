@@ -61,7 +61,7 @@ with process(["python3 chal.py"], shell=True) as rem:
     proofs = []
 
     for i in range(numrounds):
-        print("proving round {i}")
+        print(f"proving round {i}")
         challenge = int(challenge_bits[i])
         A = A_vars[i]
         opening = opening_vars[i]

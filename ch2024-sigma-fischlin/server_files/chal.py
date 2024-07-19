@@ -1,6 +1,6 @@
 import random
 from Crypto.Util.number import bytes_to_long
-from params import P, q, g
+from params import p, q, g
 from hashlib import sha512
 import json
 import os
@@ -33,11 +33,11 @@ def fischlin_proof(w0,w1,y0,y1,b):
         w_sim, w_b, y_sim, y_b = w1, w0, y1, y0
 
     r_b = random.randint(0,q)
-    a_b = pow(g,r_b,P)
+    a_b = pow(g,r_b,p)
     # Simulate transcript 1
-    e_sim = random.randint(0,2**511)
-    z_sim = pow(g,random.randint(0,q), P)
-    a_sim = (pow(pow(y_sim,e_sim,P),-1,P) *pow(g,z_sim,P)) % P
+    e_sim = random.randint(0,2**511-1)
+    z_sim = random.randint(0,q)
+    a_sim = (pow(pow(y_sim,e_sim,p),-1,p) *pow(g,z_sim,p)) % p
     
     # Normally you would sample for some `t` rounds, with `rho` parallel iterations
     # We simplify slightly for the purposes of this challenge. 
@@ -74,11 +74,11 @@ def fischlin_proof(w0,w1,y0,y1,b):
 
 def gen_round():
     w0 = random.randint(0,q)
-    y0 = pow(g,w0,P)
+    y0 = pow(g,w0,p)
     w1 = random.randint(0,q)
-    y1 = pow(g,w1,P)
-    assert (y0%P) >= 1 and (y1%P) >= 1
-    assert pow(y0, q, P) == 1 and pow(y1, q, P) == 1
+    y1 = pow(g,w1,p)
+    assert (y0%p) >= 1 and (y1%p) >= 1
+    assert pow(y0, q, p) == 1 and pow(y1, q, p) == 1
     return w0, w1, y0, y1
 
 attempts = 2**4

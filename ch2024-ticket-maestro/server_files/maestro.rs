@@ -81,7 +81,9 @@ impl TicketMaestro {
         let proof = Proof::<Bn254>::deserialize(&proof[..])?;
 
         // verify the ticket
-        Groth16::<Bn254>::verify(&self.vk, &[self.digest], &proof)?;
+        if !Groth16::<Bn254>::verify(&self.vk, &[self.digest], &proof)? {
+            return Err(anyhow::Error::msg("Invalid ticket"));
+        }
 
         // compute the ticket id
         let mut ser = vec![];
