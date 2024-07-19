@@ -36,7 +36,7 @@ def getVerifyingKey(rem):
 
 def getDigest(rem):
     rem.sendline(b'"Digest"')
-    resp = rem.readline().decode()#
+    resp = rem.readline().decode()
     return resp
 
 with remote("127.0.0.1", 1337) as rem:
@@ -57,10 +57,10 @@ with remote("127.0.0.1", 1337) as rem:
 
     ticket_proof = json.loads(ticket)["Ticket"]["proof"]
     redeemed = redeemTicket(rem, ticket_proof)
-    print("redeemed ticket = {redeemed}")
+    print(f"redeemed ticket = {redeemed}")
 
     redeemed = redeemTicket(rem, ticket_proof)
-    print("redeemed ticket again = {redeemed}")
+    print(f"redeemed ticket again = {redeemed}")
 
     balance = getBalance(rem)
     print(f'balance = {balance}')
