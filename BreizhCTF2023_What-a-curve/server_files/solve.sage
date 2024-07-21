@@ -7,8 +7,7 @@ p = 17585255163044402023
 R.<x> = GF(p)[]
 L = GF(p).algebraic_closure()
 
-#r = remote("0.0.0.0",int(1337))
-r = remote("archive.cryptohack.org",int(39003))
+r = remote("127.0.0.1",int(39003))
 
 flag = bytes.fromhex(r.recvline().decode())
 

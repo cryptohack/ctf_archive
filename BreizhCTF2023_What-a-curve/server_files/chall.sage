@@ -1,6 +1,8 @@
+import os
 import struct
 from random import SystemRandom
-from flag import flag
+
+flag = os.environ.get("FLAG").encode()
 
 p = 17585255163044402023
 

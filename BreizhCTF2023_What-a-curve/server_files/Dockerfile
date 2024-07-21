@@ -1,4 +1,4 @@
-FROM sagemath/sagemath AS builder
+FROM sagemath/sagemath:9.8 AS builder
 
 USER root
 
@@ -9,7 +9,6 @@ RUN useradd -u 666 --home=/challenge -U challenge
 WORKDIR /challenge/
 
 COPY chall.sage .
-COPY flag.py .
 
 RUN sage --preparse chall.sage && \
     rm chall.sage
