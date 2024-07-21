@@ -1,0 +1,9 @@
+name: Hyper512
+authors:
+  - maple3142
+original_ctf: HITCON CTF
+year: 2024
+description: >-
+  I don’t know how to design a secure stream cipher, but a large key space should be sufficient to block most attacks right?
+base64_flag: aGl0Y29ue2xhcmdlcl9zdGF0ZXNfaXNfc3RpbGxfbm9fbWF0Y2hfb2ZfZmFzdF9jb3JyZWxhdGlvbl9hdHRhY2tzIX0=
+flag_format: 'hitcon{...}'

@@ -1,0 +1,9 @@
+name: Leet Universe
+authors:
+  - maple3142
+original_ctf: ImaginaryCTF (Daily)
+year: 2023
+description: >-
+  The flag is hidden somewhere in the 1337th universe.
+base64_flag: aWN0Znt0aGVfYW5zd2VyX3RvX3RoZV8xMzM3dGhfdW5pdmVyc2VfaXNfMTU2ODIuLi4zNjk1N30=
+flag_format: 'ictf{...}'
