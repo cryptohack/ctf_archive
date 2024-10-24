@@ -1,0 +1,11 @@
+name: Quo vadis?
+authors:
+  - Robin_Jadoul
+original_ctf: ECSC 2024 (Italy)
+year: 2024
+description: >-
+  Do algebraic ducks go "quo quo"?
+
+  _The timeout on the remote is 600 seconds._
+base64_flag: RUNTQ3sxczBtMHJwaDFzbXNfdzF0aF8wdXJfMGxkX2ZyMTNuZF9FdmFyaXN0ZV84YmViODNkNTdmYjQ4ZWExfQ==
+flag_format: 'ECSC{FLAG}'
