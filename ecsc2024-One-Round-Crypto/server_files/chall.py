@@ -72,7 +72,6 @@ def enc(msg, key = key):
     res = ""
     blocks = [msg[i:i+dim] for i in range(0, len(msg), dim)]
 
-    # decomment one or both the blocks below to make the challenge harder -- but still solvable
     for block in blocks:
         current_key = update_key(key)
         enc = mix(block, current_key)
