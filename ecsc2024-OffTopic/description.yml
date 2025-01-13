@@ -1,0 +1,11 @@
+name: OffTopic
+authors:
+  - Drago
+original_ctf: ECSC 2024 (Italy)
+year: 2024
+description: >-
+  Did you know that you only need FHE to build OT?
+
+  _The timeout on the remote is 60 seconds._
+base64_flag: RUNTQ3tjaDN3MW41X20wcjNfN2g0bl95MHVfYzRuX2IxdF9kYjY2Mjg2OTQ1MGExODlmfQ==
+flag_format: 'ECSC{FLAG}'

@@ -1,0 +1,11 @@
+name: One Round Crypto
+authors:
+  - mr96
+original_ctf: ECSC 2024 (Italy)
+year: 2024
+description: >-
+  It's just one round of encryption. How hard can it be?
+
+  _The timeout on the remote is 300 seconds._
+base64_flag: RUNTQ3tkMDM1XzdoMTVfZDM1N3IweTM1X0FTQT8hX2MyNTk3NmMxNWM1MzVhM2R9
+flag_format: 'ECSC{FLAG}'

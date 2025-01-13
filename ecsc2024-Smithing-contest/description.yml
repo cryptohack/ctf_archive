@@ -1,0 +1,14 @@
+name: Smithing contest
+authors:
+  - PhiQuadro
+original_ctf: ECSC 2024 (Italy)
+year: 2024
+description: >-
+  Ok, so, I didn't read the part about this being a *cryptography* competition - my bad.
+  Now it's too late to back out though, please help me figure this out!
+
+  note: it is recommended to use sagemath-10.4 to run the challenge locally, due to performance reasons.
+
+  *The timeout on the remote is 120 seconds.*
+base64_flag: RUNTQ3tkMDM1XzdoMTVfZDM1N3IweTM1X0FTQT8hX2IyODhhMGMzZjVkMDY5ZmN9
+flag_format: 'ECSC{FLAG}'

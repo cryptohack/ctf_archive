@@ -1,0 +1,11 @@
+name: RSATogether
+authors:
+  - Devrar
+original_ctf: ECSC 2024 (Italy)
+year: 2024
+description: >-
+  RSA is cool, but I don't wanna do it alone. I found a way to do RSA together with my friends.
+
+  _The timeout on the remote is 60 seconds._
+base64_flag: RUNTQ3tlcHJpbnRfcDRwM3I1X2M0bl9iM19yM2FsMXlfczBtM3RoaW42XzR0X3RpbTNzX2U3MzJmYzA5YzRhMGNmODB9Cg==
+flag_format: 'ECSC{FLAG}'
