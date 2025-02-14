@@ -1,0 +1,9 @@
+name: Noisy encryption
+authors:
+  - KLPP
+original_ctf: 'CrewCTF 2024'
+year: 2024
+description: >-
+  I can encrypt your messages, however, I will reveal just a little bit of information ...
+base64_flag: 'Y3Jld3tEMWN0MW9uNHJ5XzR0dGFja3M/XzR0X3RoMXNfVDFtM18wZl95MzRyX0E3XzdoMTVfdGltM18wZl9kNHlfMW5fN2gxc19QNHJ0XzBmX0MwdW50cnk/fQ=='
+flag_format: 'crew{FLAG}'
