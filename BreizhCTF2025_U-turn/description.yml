@@ -1,0 +1,9 @@
+name: U-turn
+authors:
+  - skilo 
+original_ctf: Breizh CTF
+year: 2025
+description: >-
+  HaSh functIonS are one-way, right?
+base64_flag: QlpIQ1RGezdmZmJlZWJjZDcyYmUzZGN9Cg==
+flag_format: 'BZHCTF{FLAG}'

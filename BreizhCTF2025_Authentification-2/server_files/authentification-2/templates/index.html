@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    <h1 class="ma-police">Welcome to my super crypto challenge</h1>
+    <p>Can you access the admin panel ?</p>
+    <a href="{{ url_for('login') }}" class="btn">Login</a>
+    <a href="{{ url_for('register') }}" class="btn btn-alt">Sign up</a>
+{% endblock %}
+

@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'ma-police';
+    src: url('fonts/ma-police.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --font-family: sans-serif;
+    --background-color: #000000;
+    --text-color: #FFD700;
+    --primary-color: #D40078;
+    --container-bg: #1a1a1a;
+    --border-color: rgba(255, 215, 0, 1);
+    --max-container-width: 40rem;
+    --padding: 1rem;
+    --border-radius: 0.9375rem;
+    --input-padding: 0.75rem;
+    --btn-padding: 0.75rem 1.5625rem;
+    --font-size-h1: 2rem;
+    --font-size-p: 1.2rem;
+    --font-size-input: 1rem;
+    --font-size-flag: 1.4rem;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 3.125rem;
+}
+
+.ma-police {
+    font-family: "ma-police";
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 1.875rem;
+}
+
+.logo {
+    width: 25rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: var(--max-container-width);
+    margin: auto;
+    background: var(--container-bg);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    border: 2px solid var(--border-color);
+}
+
+h1 {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: var(--font-size-h1);
+    margin: 0;
+}
+
+p {
+    color: var(--text-color);
+    font-size: var(--font-size-p);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: var(--btn-padding);
+    background-color: var(--text-color);
+    color: #000000;
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: var(--font-size-input);
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-alt {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-alt:hover {
+    background-color: var(--text-color);
+    color: black;
+}
+
+input {
+    width: 90%;
+    padding: var(--input-padding);
+    margin: 0.55rem 0; 
+
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    background: #333;
+    color: var(--text-color);
+    font-size: var(--font-size-input);
+}
+
+input::placeholder {
+    color: var(--text-color);
+    opacity: 0.7;
+}
+
+.flag {
+    font-size: var(--font-size-flag);
+    font-weight: bold;
+    background: var(--primary-color);
+    padding: 0.9375rem;
+    border-radius: var(--border-radius);
+    display: inline-block;
+    color: white;
+    margin-top: 0.9375rem;
+}
+

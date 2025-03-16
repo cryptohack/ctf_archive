@@ -1,0 +1,12 @@
+name: "Authentification 2"
+authors:
+  - skilo
+original_ctf: 'Breizh CTF'
+year: 2025
+description: >-
+  Damn, I'd forgotten to check the integrity...
+  Good thing the intern pointed it out to me, he really is perfect! 😁
+
+  Hint (released during the CTF) : there is an implementation error in the file gcm.py that you need to exploit to solve this challenge.
+base64_flag: 'QlpIQ1RGe2VuY29yZV9ldF90b3Vqb3Vyc19kZV9sYV9mYXV0ZV9kdV9zdGFnaWFpcmVfMzUwY2Q1NWU4YmY2MjhlYX0K'
+flag_format: 'BZHCTF{FLAG}'
