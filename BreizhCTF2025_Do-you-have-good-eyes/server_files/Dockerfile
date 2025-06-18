@@ -1,4 +1,4 @@
-FROM sagemath/sagemath:10.5 AS builder
+FROM sagemath/sagemath:10.6 AS builder
 
 USER root
 
