@@ -1,0 +1,9 @@
+name: Verilicious
+authors:
+  - r4sti
+original_ctf: Cyber Apocalypse 2025
+year: 2025
+description: >-
+  A sacred ward, once thought unbreakable, is built upon a foundation of misplaced trust. The ancient order that devised it never foresaw the cracks in their own defenses. A true cipher-weaver, one with a deep understanding of hidden structures, may find a way to tear it down. Can you?
+base64_flag: SFRCe0hOUF8xc190MDBfc3RyMG5nX2gwbjNzdGx5X19fNGxzMF9jaDNja19sNHN0X3A0ZzNfMGZfaHR0cHM6Ly9lcHJpbnQuaWFjci5vcmcvMjAyMy8wMzIucGRmfQ==
+flag_format: 'HTB{FLAG}'
