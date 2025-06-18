@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Login page{% endblock %}
+{% block content %}
+    <h1 class="ma-police">Login page</h1>
+    <form method="POST">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit" class="btn">Login</button>
+    </form>
+    <a href="{{ url_for('register') }}" class="btn btn-alt">Sign up</a>
+{% endblock %}
+

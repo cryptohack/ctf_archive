@@ -1,0 +1,9 @@
+name: "Do you have good eyes?"
+authors:
+  - skilo 
+original_ctf: 'Breizh CTF'
+year: 2025
+description: >-
+  Can you tell the difference?
+base64_flag: 'QlpIQ1RGe3Ryb3BfZGVfc3RydWN0dXJlX3R1ZV9sYV9zdHJ1Y3R1cmVfNzljMTQ1Nzc1MzczYTliOH0K'
+flag_format: 'BZHCTF{FLAG}'

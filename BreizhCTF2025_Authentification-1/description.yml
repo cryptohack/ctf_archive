@@ -1,0 +1,10 @@
+name: "Authentification 1"
+authors:
+  - skilo
+original_ctf: 'Breizh CTF'
+year: 2025
+description: >-
+  I secured my web application with AES-GCM implemented by the intern!
+  Great idea, isn't it ?
+base64_flag: 'QlpIQ1RGe25lX2phbWFpc19yZS11dGlsaXNlcl9sZV9ub25jZV9lMWQ2Y2U3MGQzZDEwMThjfQo='
+flag_format: 'BZHCTF{FLAG}'
