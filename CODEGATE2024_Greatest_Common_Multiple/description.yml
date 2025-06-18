@@ -1,0 +1,9 @@
+name: Greatest Common Multiple
+authors:
+  - soon_haari
+original_ctf: "CODEGATE CTF"
+year: 2024
+description: >-
+  "My boss 1nteger_c said we will come back with a better GCM challenge. I hereby present, the **Greatest Common Multiple**."
+base64_flag: 'Y29kZWdhdGUyMDI0e0lzX2l0X25vcm1hbF9pZl9zb21lX2RhdGFfaXNfb2J0YWluYWJsZV9qdXN0X3dpdGhfdGFnPy4uLkZfMl4xMjgnc19zdXBlcl9wcm9wZXJ0eX0='
+flag_format: 'codegate2024{.*}'
