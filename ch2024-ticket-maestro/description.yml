@@ -1,6 +1,7 @@
 name: Ticket Maestro
 authors:
-  - Mathias Hall-Andersen, zksecurity.xyz
+  - name: Mathias Hall-Andersen, zksecurity.xyz
+    url: https://www.zksecurity.xyz/
 original_ctf: "CryptoHack"
 year: 2024
 description: >-
