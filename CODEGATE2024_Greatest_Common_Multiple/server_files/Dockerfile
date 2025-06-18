@@ -12,6 +12,6 @@ COPY ./src/flag.txt /
 COPY ./src/banner.txt /
 COPY ./src/secret.py /
 
-CMD socat TCP-LISTEN:9999,reuseaddr,fork EXEC:"python3 /chall.py"
+CMD socat TCP-LISTEN:1337,reuseaddr,fork EXEC:"python3 /chall.py"
 
-EXPOSE 9999
+EXPOSE 1337
