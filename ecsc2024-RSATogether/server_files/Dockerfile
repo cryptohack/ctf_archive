@@ -1,6 +1,6 @@
 FROM cybersecnatlab/socaz:ubuntu-jammy AS socaz
 
-FROM sagemath/sagemath@sha256:a7c4f3d0536aa1e93c106ac31ea2ae035299f9afcfdcb4a549c396374fb926a9
+FROM sagemath/sagemath:10.6
 
 USER root
 
