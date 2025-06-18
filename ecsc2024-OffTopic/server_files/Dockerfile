@@ -1,4 +1,4 @@
-FROM cache.ecsc2024.it/cybersecnatlab/socaz:python-3.11-alpine
+FROM cybersecnatlab/socaz:python-3.11-alpine
 
 COPY ./requirements.txt ./
 RUN pip install -r requirements.txt
