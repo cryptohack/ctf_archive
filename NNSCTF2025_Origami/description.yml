@@ -1,0 +1,9 @@
+name: Origami
+authors:
+  - Zukane
+original_ctf: NNS CTF 2025
+year: 2025
+description: >-
+  Origami is a ntruly marvellous artform
+base64_flag: Tk5Te2szM3BfZjBsZDFuZ180bmRfZjBsZDFuZ19sMWszXzRuXzByMWc0bTFfbTRzdDNyfQ==
+flag_format: 'NNS{FLAG}'
