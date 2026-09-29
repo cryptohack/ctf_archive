@@ -1,4 +1,5 @@
 FROM cybersecnatlab/socaz:python-3.11-alpine
+RUN apk add --no-cache bash
 
 COPY ./requirements.txt ./
 RUN pip install -r requirements.txt
