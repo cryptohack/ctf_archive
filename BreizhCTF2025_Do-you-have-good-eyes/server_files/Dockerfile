@@ -9,7 +9,6 @@ RUN useradd -u 666 --home=/challenge -U challenge
 WORKDIR /challenge/
 
 COPY do-you-have-good-eyes/ .
-ENV FLAG="BZHCTF{trop_de_structure_tue_la_structure_79c145775373a9b8}"
 
 RUN sage --preparse chal.sage && \
     rm chal.sage
