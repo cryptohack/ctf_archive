@@ -1,14 +1,4 @@
-FROM python:3.9
-WORKDIR /app
-
-RUN useradd -m chall
-RUN apt update
-RUN apt install -y socat
-
-COPY probability.py .
-
-RUN chmod +r probability.py
-
-USER chall
-
-ENTRYPOINT socat tcp-l:1337,fork,reuseaddr exec:"python probability.py"
+FROM ctf-archive/python-base:3.12
+COPY probability.py ./
+USER ctf
+CMD ["socat", "TCP-LISTEN:1337,reuseaddr,fork", "EXEC:python3 probability.py"]

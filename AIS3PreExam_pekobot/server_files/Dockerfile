@@ -1,13 +1,4 @@
-FROM python:3.10
-
-RUN apt-get update && apt-get install socat -y
-RUN pip install pycryptodome
-
-WORKDIR /app
-COPY elliptic_curve.py .
-COPY server.py .
-
-RUN useradd -ms /bin/bash ctf
+FROM ctf-archive/python-base:3.12
+COPY elliptic_curve.py server.py ./
 USER ctf
-EXPOSE 1337
-ENTRYPOINT ["socat", "TCP-LISTEN:1337,fork,reuseaddr", "EXEC:'python server.py',stderr"]
+CMD ["socat", "TCP-LISTEN:1337,reuseaddr,fork", "EXEC:python3 server.py,stderr"]

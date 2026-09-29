@@ -1,10 +1,11 @@
-FROM python:3.10
+FROM ctf-archive/python-base:3.12 AS build
+RUN apt-get update && apt-get install -y --no-install-recommends gcc libc6-dev
+COPY requirements.txt ./
+RUN pip wheel -w /wheels -r requirements.txt
 
-COPY server.py ./server.py
-COPY requirements.txt ./requirements.txt
-
-RUN pip install -U -r requirements.txt
-
-EXPOSE 1337
-
-CMD [ "python3", "./server.py" ]
+FROM ctf-archive/python-base:3.12
+COPY --from=build /wheels /wheels
+RUN pip install /wheels/* && rm -rf /wheels
+COPY server.py ./
+USER ctf
+CMD ["python3", "server.py"]

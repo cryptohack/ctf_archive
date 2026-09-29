@@ -1,15 +1,5 @@
-FROM ubuntu:20.04
-RUN export DEBIAN_FRONTEND=noninteractive && apt update -y && apt -y install xinetd python3 python3-pip
-
-RUN useradd ctf
-
-WORKDIR /app
-
-RUN chown ctf /app
-
+FROM ctf-archive/python-base:3.12
+RUN pip install mmh3==5.3.0
 COPY source.py .
 COPY ctf.xinetd /etc/xinetd.d/ctf
-
-RUN pip install mmh3
-
-CMD xinetd -dontfork
+CMD ["xinetd", "-dontfork"]

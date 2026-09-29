@@ -3,9 +3,15 @@ import hashlib
 import os
 import random
 import re
+import subprocess
 import yaml
 
 DOCKER_PORT = 1337
+
+# Shared base images that challenges build FROM, mapped to their build context
+BASE_IMAGES = {
+    "ctf-archive/python-base:3.12": "base_images/python",
+}
 
 port_mappings = {}
 used_ports = []
@@ -88,5 +94,9 @@ generated_compose = generate_compose_file()
 if __name__ == "__main__":
     with open('docker-compose.yml', 'w') as f:
         f.write(generated_compose)
+
+    # Challenge Dockerfiles build FROM these, so they must exist locally first
+    for tag, context in BASE_IMAGES.items():
+        subprocess.run(["docker", "build", "-t", tag, context], check=True)
 
     os.system("docker compose up --build --remove-orphans -d")

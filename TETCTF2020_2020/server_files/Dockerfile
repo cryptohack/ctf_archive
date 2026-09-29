@@ -1,14 +1,4 @@
-FROM python:3.9
-WORKDIR /app
-
-RUN useradd -m chall
-RUN apt update
-RUN apt install -y socat
-
-COPY 2020.py .
-
-RUN chmod +r 2020.py
-
-USER chall
-
-ENTRYPOINT socat tcp-l:1337,fork,reuseaddr exec:"python 2020.py"
+FROM ctf-archive/python-base:3.12
+COPY 2020.py ./
+USER ctf
+CMD ["socat", "TCP-LISTEN:1337,reuseaddr,fork", "EXEC:python3 2020.py"]

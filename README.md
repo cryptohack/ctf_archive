@@ -56,7 +56,15 @@ For an example of a dynamic challenge to copy, see [ICC Athens: ed25519](https:/
    - Please ensure to **base64 encode** your flag
  - `Dockerfile`
    - All dynamic challenges must be built from a Dockerfile. `socat` or `xinetd` can be used to bind a challenge file to a port.
-   - For the Dockerfile base image, please use a specific version not latest, e.g. use `ubuntu:22.04` not `ubuntu:latest` - this ensures the challenge will still work in the future.
+   - For Python challenges, please build `FROM ctf-archive/python-base:3.12` (defined in [base_images/python](base_images/python/Dockerfile)). It already contains Python 3.12, `socat`, `xinetd`, `pycryptodome`, `gmpy2` and a `ctf` user, so your Dockerfile only needs to copy your files in and install any extra dependencies. Sharing one base keeps builds fast and disk usage low. Build the base locally first with `docker build -t ctf-archive/python-base:3.12 base_images/python`. A typical Dockerfile looks like:
+     ```dockerfile
+     FROM ctf-archive/python-base:3.12
+     COPY chal.py ./
+     USER ctf
+     CMD ["socat", "TCP-LISTEN:1337,reuseaddr,fork", "EXEC:python3 chal.py,stderr"]
+     ```
+   - For Sage challenges, please use `sagemath/sagemath:10.6`.
+   - For any other base image, please use a specific version not latest, e.g. use `ubuntu:22.04` not `ubuntu:latest` - this ensures the challenge will still work in the future.
    - Listen on *port 1337* in your container that hosts the challenge. A random port will automatically be mapped from the host to port 1337 in your container.
    - The flag within `description.yml` is decoded and set as the environment variable `FLAG` within the container automatically. So you can load the flag using `flag = os.environ["FLAG"]` instead of importing a file.
  - `server_files/YOUR_CHALLENGE_FILES`
