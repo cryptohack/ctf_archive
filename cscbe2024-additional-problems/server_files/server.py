@@ -12,7 +12,7 @@ def dghv_encrypt(p, N, m):
     assert 2**7 <= N < 2**8 # Normally this is 2, but by using a bigger `N` we can encode ASCII bytes instead of bits! That's much more efficient. All `N` in this range should be secure, so let's make it an assertion
 
     q = random.getrandbits(1024)
-    rmax = 2**128 / N / 4
+    rmax = int(2**128 / N / 4)
     r = random.randint(0, rmax) # In v2.0, we will let `r` be negative as well as positive => double the randomness!
     return p*q + N*r + m
 
